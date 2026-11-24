@@ -4,6 +4,13 @@
   "description": "deepseek plugin market",
   "metadata": {
     "sortKeys": {
+      "github_stars": {
+        "title": {
+          "en": "GitHub stars",
+          "zh": "GitHub 星标数"
+        },
+        "order": "desc"
+      },
       "npm_weekly_downloads": {
         "title": {
           "en": "npm weekly downloads",
@@ -133,6 +140,9 @@
           "openai",
           "pi-package"
         ],
+        "sortKeys": {
+          "github_stars": 8341
+        },
         "category": "essentials",
         "labels": []
       },
@@ -1043,6 +1053,9 @@
           "en",
           "language"
         ],
+        "sortKeys": {
+          "github_stars": 757
+        },
         "category": "essentials",
         "labels": []
       },
@@ -3763,6 +3776,9 @@
           "token",
           "ui"
         ],
+        "sortKeys": {
+          "github_stars": 5473
+        },
         "category": "essentials",
         "labels": []
       },
@@ -5768,6 +5784,9 @@
           "multimodal",
           "modlens"
         ],
+        "sortKeys": {
+          "github_stars": 5073
+        },
         "category": "capabilities",
         "labels": [
           "vision"
@@ -6338,6 +6357,9 @@
           "screenshot",
           "plugin"
         ],
+        "sortKeys": {
+          "github_stars": 1300
+        },
         "category": "capabilities",
         "labels": [
           "vision"
@@ -7129,6 +7151,9 @@
           "web-search",
           "search"
         ],
+        "sortKeys": {
+          "github_stars": 91
+        },
         "category": "capabilities",
         "labels": [
           "search"
@@ -7565,6 +7590,7 @@
       ],
       "metadata": {
         "sortKeys": {
+          "github_stars": 63172,
           "npm_weekly_downloads": 27408
         },
         "category": "capabilities",
@@ -7596,6 +7622,9 @@
           "cordis",
           "typescript"
         ],
+        "sortKeys": {
+          "github_stars": 22
+        },
         "category": "capabilities",
         "labels": [
           "memory",
@@ -7786,6 +7815,9 @@
         }
       ],
       "metadata": {
+        "sortKeys": {
+          "github_stars": 576
+        },
         "category": "capabilities",
         "labels": []
       }
@@ -7817,6 +7849,9 @@
           "safety",
           "security"
         ],
+        "sortKeys": {
+          "github_stars": 2099
+        },
         "category": "capabilities",
         "labels": []
       },
@@ -8695,6 +8730,9 @@
         }
       ],
       "metadata": {
+        "sortKeys": {
+          "github_stars": 5317
+        },
         "category": "interface",
         "labels": []
       }
@@ -9087,6 +9125,7 @@
       ],
       "metadata": {
         "sortKeys": {
+          "github_stars": 10634,
           "npm_weekly_downloads": 15261
         },
         "category": "interface",
@@ -9109,6 +9148,9 @@
           "agent-skill",
           "architecture-diagram"
         ],
+        "sortKeys": {
+          "github_stars": 99517
+        },
         "category": "graphics",
         "labels": []
       },
@@ -9153,6 +9195,9 @@
           "演示文稿",
           "幻灯片"
         ],
+        "sortKeys": {
+          "github_stars": 44
+        },
         "category": "interface",
         "labels": []
       },
@@ -9739,6 +9784,9 @@
         }
       ],
       "metadata": {
+        "sortKeys": {
+          "github_stars": 751
+        },
         "category": "interface",
         "labels": []
       }
@@ -9763,6 +9811,7 @@
           "workflow"
         ],
         "sortKeys": {
+          "github_stars": 0,
           "npm_weekly_downloads": 310
         },
         "category": "development",
@@ -9829,6 +9878,7 @@
       ],
       "metadata": {
         "sortKeys": {
+          "github_stars": 1,
           "npm_weekly_downloads": 46
         },
         "category": "development",
@@ -9851,6 +9901,9 @@
           "sdd",
           "tdd"
         ],
+        "sortKeys": {
+          "github_stars": 6
+        },
         "category": "development",
         "labels": []
       },
@@ -9900,6 +9953,9 @@
           "skills",
           "superpowers"
         ],
+        "sortKeys": {
+          "github_stars": 172
+        },
         "category": "development",
         "labels": []
       },
@@ -10157,6 +10213,7 @@
       ],
       "metadata": {
         "sortKeys": {
+          "github_stars": 0,
           "npm_weekly_downloads": 641
         },
         "category": "development",
@@ -10201,6 +10258,9 @@
           "acp",
           "json-rpc"
         ],
+        "sortKeys": {
+          "github_stars": 43
+        },
         "category": "development",
         "labels": []
       },
@@ -10666,6 +10726,9 @@
           "sidebar",
           "commit-graph"
         ],
+        "sortKeys": {
+          "github_stars": 36
+        },
         "category": "development",
         "labels": []
       },
@@ -11741,6 +11804,9 @@
           "review",
           "subagent"
         ],
+        "sortKeys": {
+          "github_stars": 19
+        },
         "category": "development",
         "labels": []
       },
@@ -12160,6 +12226,9 @@
           "agent-preset",
           "superpowers"
         ],
+        "sortKeys": {
+          "github_stars": 17
+        },
         "category": "development",
         "labels": []
       },
@@ -12279,6 +12348,9 @@
           "diff-viewer",
           "files"
         ],
+        "sortKeys": {
+          "github_stars": 35
+        },
         "category": "development",
         "labels": []
       },
@@ -13973,6 +14045,9 @@
           "无限制模式",
           "unrestricted"
         ],
+        "sortKeys": {
+          "github_stars": 12323
+        },
         "category": "development",
         "labels": []
       },
@@ -15133,6 +15208,9 @@
           "enrichment",
           "scraping"
         ],
+        "sortKeys": {
+          "github_stars": 8868
+        },
         "category": "capabilities",
         "labels": []
       },
@@ -15182,6 +15260,9 @@
           "deepseek-harness",
           "agent-skill"
         ],
+        "sortKeys": {
+          "github_stars": 38955
+        },
         "category": "other",
         "labels": []
       },
@@ -15239,6 +15320,9 @@
           "theme",
           "background"
         ],
+        "sortKeys": {
+          "github_stars": 8068
+        },
         "category": "fun",
         "labels": [
           "local"
@@ -15449,6 +15533,9 @@
           "deepseek-harness",
           "repository-tools"
         ],
+        "sortKeys": {
+          "github_stars": 6009
+        },
         "category": "capabilities",
         "labels": []
       },
@@ -15703,6 +15790,9 @@
           "ai-agent",
           "llm"
         ],
+        "sortKeys": {
+          "github_stars": 3083
+        },
         "category": "development",
         "labels": []
       },
@@ -16213,6 +16303,7 @@
           "supermemory"
         ],
         "sortKeys": {
+          "github_stars": 1116,
           "npm_weekly_downloads": 45351
         },
         "category": "capabilities",
@@ -17196,6 +17287,9 @@
           "dsh-plugin",
           "deepseek-harness"
         ],
+        "sortKeys": {
+          "github_stars": 1037
+        },
         "category": "capabilities",
         "labels": [
           "search"
@@ -17897,6 +17991,7 @@
       ],
       "metadata": {
         "sortKeys": {
+          "github_stars": 1020,
           "npm_weekly_downloads": 2868
         },
         "category": "capabilities",
@@ -17943,6 +18038,9 @@
           "ai-agent",
           "cordis"
         ],
+        "sortKeys": {
+          "github_stars": 610
+        },
         "category": "development",
         "labels": []
       },
@@ -19536,6 +19634,9 @@
           "chatbot",
           "im"
         ],
+        "sortKeys": {
+          "github_stars": 629
+        },
         "category": "capabilities",
         "labels": []
       },
@@ -19663,6 +19764,7 @@
           "attachment"
         ],
         "sortKeys": {
+          "github_stars": 0,
           "npm_weekly_downloads": 25
         },
         "category": "graphics",
@@ -19702,6 +19804,10 @@
           "handwriting",
           "sketch"
         ],
+        "sortKeys": {
+          "github_stars": 3,
+          "npm_weekly_downloads": 440
+        },
         "category": "graphics",
         "labels": []
       },
@@ -19757,6 +19863,10 @@
           "mxfile",
           "canvas"
         ],
+        "sortKeys": {
+          "github_stars": 863,
+          "npm_weekly_downloads": 6300
+        },
         "category": "graphics",
         "labels": []
       },
@@ -20035,6 +20145,10 @@
           "visualization",
           "web-ui"
         ],
+        "sortKeys": {
+          "github_stars": 21,
+          "npm_weekly_downloads": 546
+        },
         "category": "graphics",
         "labels": []
       },
@@ -20187,6 +20301,10 @@
           "mermaid",
           "diagram"
         ],
+        "sortKeys": {
+          "github_stars": 23,
+          "npm_weekly_downloads": 3169
+        },
         "category": "graphics",
         "labels": []
       },
@@ -20314,6 +20432,9 @@
           "architecture",
           "cordis"
         ],
+        "sortKeys": {
+          "npm_weekly_downloads": 30
+        },
         "category": "graphics",
         "labels": []
       },
@@ -20388,6 +20509,10 @@
         }
       ],
       "metadata": {
+        "sortKeys": {
+          "github_stars": 1,
+          "npm_weekly_downloads": 942
+        },
         "category": "graphics",
         "labels": []
       }
@@ -20414,6 +20539,10 @@
           "zhipu",
           "text-to-image"
         ],
+        "sortKeys": {
+          "github_stars": 15,
+          "npm_weekly_downloads": 1147
+        },
         "category": "graphics",
         "labels": []
       },
@@ -20749,6 +20878,10 @@
           "text-to-image",
           "lora"
         ],
+        "sortKeys": {
+          "github_stars": 0,
+          "npm_weekly_downloads": 357
+        },
         "category": "graphics",
         "labels": [
           "local"
@@ -20824,6 +20957,10 @@
           "byok",
           "cordis"
         ],
+        "sortKeys": {
+          "github_stars": 1724,
+          "npm_weekly_downloads": 22466
+        },
         "category": "graphics",
         "labels": []
       },
@@ -21250,6 +21387,10 @@
           "tool-receipt",
           "delegation"
         ],
+        "sortKeys": {
+          "github_stars": 1,
+          "npm_weekly_downloads": 3188
+        },
         "category": "token",
         "labels": [
           "saving"
@@ -22327,6 +22468,10 @@
         }
       ],
       "metadata": {
+        "sortKeys": {
+          "github_stars": 13,
+          "npm_weekly_downloads": 29159
+        },
         "category": "token",
         "labels": [
           "saving"
@@ -22537,6 +22682,9 @@
         }
       ],
       "metadata": {
+        "sortKeys": {
+          "npm_weekly_downloads": 1116
+        },
         "category": "token",
         "labels": [
           "saving"
@@ -22559,6 +22707,10 @@
           "dsh",
           "compaction"
         ],
+        "sortKeys": {
+          "github_stars": 354,
+          "npm_weekly_downloads": 1913
+        },
         "category": "token",
         "labels": [
           "saving"
@@ -22763,6 +22915,10 @@
           "prompt-caching",
           "conversation-history"
         ],
+        "sortKeys": {
+          "github_stars": 66,
+          "npm_weekly_downloads": 2434
+        },
         "category": "token",
         "labels": [
           "saving"
@@ -22908,6 +23064,9 @@
           "agent",
           "compaction"
         ],
+        "sortKeys": {
+          "npm_weekly_downloads": 1635
+        },
         "category": "token",
         "labels": [
           "saving"
@@ -23226,6 +23385,10 @@
           "compact-manager",
           "ingress"
         ],
+        "sortKeys": {
+          "github_stars": 1,
+          "npm_weekly_downloads": 3070
+        },
         "category": "token",
         "labels": [
           "saving"
@@ -23282,6 +23445,10 @@
           "threshold",
           "summarization"
         ],
+        "sortKeys": {
+          "github_stars": 6,
+          "npm_weekly_downloads": 442
+        },
         "category": "token",
         "labels": [
           "saving"
@@ -23354,6 +23521,10 @@
           "tool-output",
           "ui"
         ],
+        "sortKeys": {
+          "github_stars": 2,
+          "npm_weekly_downloads": 348
+        },
         "category": "token",
         "labels": [
           "saving"
@@ -23468,6 +23639,10 @@
           "edit",
           "ui"
         ],
+        "sortKeys": {
+          "github_stars": 0,
+          "npm_weekly_downloads": 3067
+        },
         "category": "token",
         "labels": [
           "saving"
@@ -23714,6 +23889,10 @@
           "compression",
           "plugin"
         ],
+        "sortKeys": {
+          "github_stars": 24,
+          "npm_weekly_downloads": 48
+        },
         "category": "token",
         "labels": [
           "saving"
@@ -23814,6 +23993,9 @@
           "token-saver",
           "compaction"
         ],
+        "sortKeys": {
+          "github_stars": 7
+        },
         "category": "token",
         "labels": [
           "saving"
@@ -23855,6 +24037,10 @@
           "cache",
           "observability"
         ],
+        "sortKeys": {
+          "github_stars": 0,
+          "npm_weekly_downloads": 332
+        },
         "category": "token",
         "labels": [
           "monitor"
@@ -23895,6 +24081,10 @@
           "token-usage",
           "observability"
         ],
+        "sortKeys": {
+          "github_stars": 0,
+          "npm_weekly_downloads": 584
+        },
         "category": "token",
         "labels": [
           "monitor"
@@ -23953,6 +24143,10 @@
           "analytics",
           "usage-statistics"
         ],
+        "sortKeys": {
+          "github_stars": 11,
+          "npm_weekly_downloads": 242
+        },
         "category": "token",
         "labels": [
           "monitor"
@@ -24056,6 +24250,10 @@
           "agent",
           "claude-code"
         ],
+        "sortKeys": {
+          "github_stars": 137,
+          "npm_weekly_downloads": 4123
+        },
         "category": "token",
         "labels": [
           "monitor",
@@ -24355,6 +24553,9 @@
           "3D建模",
           "渲染"
         ],
+        "sortKeys": {
+          "github_stars": 0
+        },
         "category": "modeling",
         "labels": [
           "local"
@@ -24460,6 +24661,9 @@
           "dxf",
           "svg"
         ],
+        "sortKeys": {
+          "github_stars": 47
+        },
         "category": "modeling",
         "labels": [
           "local"
@@ -24760,6 +24964,9 @@
           "dsh-bundle",
           "plugin"
         ],
+        "sortKeys": {
+          "github_stars": 1
+        },
         "category": "modeling",
         "labels": []
       },
@@ -24828,6 +25035,9 @@
         }
       ],
       "metadata": {
+        "sortKeys": {
+          "github_stars": 3
+        },
         "category": "modeling",
         "labels": []
       }
@@ -24849,6 +25059,9 @@
           "plugin",
           "ui"
         ],
+        "sortKeys": {
+          "github_stars": 1051
+        },
         "category": "modeling",
         "labels": []
       },
@@ -25164,6 +25377,9 @@
           "cordis",
           "react"
         ],
+        "sortKeys": {
+          "github_stars": 6694
+        },
         "category": "fun",
         "labels": []
       },
@@ -25681,6 +25897,9 @@
           "balance",
           "widget"
         ],
+        "sortKeys": {
+          "github_stars": 7465
+        },
         "category": "fun",
         "labels": []
       },
@@ -25977,6 +26196,9 @@
           "task",
           "status-card"
         ],
+        "sortKeys": {
+          "github_stars": 77
+        },
         "category": "fun",
         "labels": []
       },
@@ -26439,6 +26661,9 @@
           "emoticon",
           "sticker"
         ],
+        "sortKeys": {
+          "github_stars": 606
+        },
         "category": "fun",
         "labels": []
       },
@@ -26484,6 +26709,9 @@
           "anthropic",
           "editorial"
         ],
+        "sortKeys": {
+          "github_stars": 704
+        },
         "category": "fun",
         "labels": []
       },
