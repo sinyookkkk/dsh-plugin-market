@@ -1,0 +1,51 @@
+# 每行一个插件来源：npm 包名或 https Git 仓库 URL
+# 空行和以 # 开头的行会被忽略。
+#
+# 收录口径：社区榜单/插件注册表中的热门插件，且仓库默认分支或子包声明了 dsh.bundle。
+
+# 生态入口与必装
+https://github.com/ranxianglei/billion-context
+https://github.com/Han-1413141/dsh-cost-meter
+https://github.com/bowenliang123/dsh-context
+
+# 能力补全：视觉 / 搜索 / 记忆 / 文件 / 安全
+https://github.com/liustack/modlens
+https://github.com/ysr666/dsh-vision-router
+https://github.com/anweat/dsh-web-search-pro
+@vectorize-io/hindsight-coding-agents
+https://github.com/Rxiain/dsh-openviking
+https://github.com/FSMargoo/dsh-at-file
+https://github.com/kenryu42/cc-safety-net
+
+# 界面与工作流
+https://github.com/omdsh-dev/DSH-better-sidebar
+@linxin666/dsh-web-all
+https://github.com/tt-a1i/archify
+https://github.com/STARDUSTLC666/dsh-ppt
+https://github.com/liangmianya/dsh-synapse
+
+# 规范与方法论：OpenSpec / Superpowers
+dsh-openspec-opsx
+@dragon-talon/dsh-openspec
+https://github.com/SAXEM1997/specpowers
+https://github.com/LayneChai/superpowers-dsh
+@zfdx123/dsh-superpowers
+
+# 3D 与建模
+https://github.com/STARDUSTLC666/dsh-blender-studio
+https://github.com/LAU-MARS/dsh-cad
+https://github.com/fzss2012/dsh-usd-3d-preview
+https://github.com/lonelycrab888/dsh-molecular-viewer
+https://github.com/omdsh-dev/dsh-genui
+
+# 可手动 dsh plugin add，但根包 private:true，官方索引生成器不收录：
+# https://github.com/OMEN111111/dsh-model-gen
+# https://github.com/OOOHS/dsh-3d
+# https://github.com/Qzy05231/dsh-tapelab
+
+# 趣味与美化
+https://github.com/PC2005-cloud/dsh-pet
+https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget
+https://github.com/MichengAI/dsh-pua
+https://github.com/yyh-001/dsh-meme
+https://github.com/Nwflower/dsh-claude-style

@@ -1,0 +1,5 @@
+.dsh-harness/
+.plugin-market-cache/
+node_modules/
+.DS_Store
+.workbuddy-ai/
