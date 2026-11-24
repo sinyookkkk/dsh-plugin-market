@@ -4,7 +4,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 HARNESS_DIR="${DSH_HARNESS_DIR:-$ROOT/.dsh-harness}"
 TITLE="${DSH_MARKET_TITLE:-DSH Plugin Market}"
-DESCRIPTION="${DSH_MARKET_DESCRIPTION:-Community DSH plugin index}"
+DESCRIPTION="${DSH_MARKET_DESCRIPTION:-deepseek plugin market}"
 INPUT="$ROOT/plugins.txt"
 OUTPUT="$ROOT/public/index.json"
 CACHE="$ROOT/.plugin-market-cache"

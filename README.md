@@ -33,7 +33,7 @@ DSH_HARNESS_DIR="E:/workspace/deepseek-harness" bash scripts/build.sh
 | 变量 | 默认值 |
 |---|---|
 | `DSH_MARKET_TITLE` | `DSH Plugin Market` |
-| `DSH_MARKET_DESCRIPTION` | `Community DSH plugin index` |
+| `DSH_MARKET_DESCRIPTION` | `deepseek plugin market` |
 | `DSH_HARNESS_DIR` | `.dsh-harness/` |
 | `UPDATE_DSH` | `0` |
 

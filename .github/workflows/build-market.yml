@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DSH_MARKET_TITLE: DSH Plugin Market
-      DSH_MARKET_DESCRIPTION: Community DSH plugin index
+      DSH_MARKET_DESCRIPTION: deepseek plugin market
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
