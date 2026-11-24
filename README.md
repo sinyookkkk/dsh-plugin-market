@@ -24,7 +24,7 @@ https://sinyookkkk.github.io/dsh-plugin-market/index.json
 
 ## 商店收录了哪些 plugin
 
-目前共 **37 个**。名称就是 DSH 里可以搜索的关键字。
+目前共 **56 个**。名称就是 DSH 里可以搜索的关键字。
 
 ### 必装与实用
 
@@ -77,6 +77,35 @@ https://sinyookkkk.github.io/dsh-plugin-market/index.json
 | `dsh-vscode-mode` | 类 VSCode 编辑体验，Monaco 编辑器与文件页签 |
 | `dsh-purge-community` | 状态自检、提示词/规则管理、本机备份与回滚 |
 | `treg-dsh` | 工具目录，4000+ agent-friendly 工具按需调用 |
+
+### 更多高星插件
+
+| 插件 | 作用 |
+|---|---|
+| `huashu-nuwa` | 把任何人蒸馏成可运行的思维 Skill |
+| `dsh-plugin-wallpaper-engine` | DSH 网页壁纸引擎 |
+| `dsh-ops` | Windows/Linux 原生文件与 PTC 工具 |
+| `@nanmicoder/dsh-agent-teams` | 多 Agent 团队协作 |
+| `dsh-mnemon` | 可组合的视图式上下文管理 |
+| `@liustack/modsearch` | 面向编码 Agent 的免费网页搜索 |
+| `@ljwei-stak/dsh-model-route-bot` | 模型路由与官方工具 bot 工作区 |
+| `@michengai/dsh-skills-manager` | 统一加载与管理本机 Agent Skills |
+| `@tencent-connect/dsh-qqbot` | 在 QQ 私聊/群聊里对话 DSH |
+
+### 绘图与草图
+
+| 插件 | 作用 |
+|---|---|
+| `dsh-sketch` | 输入框「+」菜单里的随手画板，画完直接当图片附件发进对话 |
+| `dsh-sketchpad` | 手写与示意图白板 |
+| `dsh-drawai` | 右侧栏可编辑画布 + AI 语义绘图，读写原生 `.drawio` |
+| `dsh-diagram` | 把文章转成可编辑的 Excalidraw 画布 |
+| `dsh-mermaid` | 在 DSH 中渲染和编辑 Mermaid 代码块 |
+| `dsh-diagram-studio` | 规格驱动的图表审查与修复 |
+| `dsh-diagram-leapavid` | 50 种编辑式图表类型与品牌配色 |
+| `dsh-draw` | 统一管理多种静态图片生成模型的绘图工具 |
+| `dsh-draw-mode` | 把本地 ComfyUI 接到 DSH 里绘图 |
+| `dsh-image-gen` | ChatGPT 风格文生图，支持 Gemini/OpenAI/Seedream 等 |
 
 ### 3D 与建模
 

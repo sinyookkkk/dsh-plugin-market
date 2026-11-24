@@ -40,6 +40,29 @@ https://github.com/Lenonss/DSH_VsCodeMode
 https://github.com/kingcharleslzy-ai/dsh-purge
 https://github.com/superdesigndev/treg
 
+# 更多高星插件
+https://github.com/alchaincyf/nuwa-skill
+https://github.com/elysia395/dsh-wallpaper-engine
+https://github.com/T-Auto/dsh-ops
+https://github.com/NanmiCoder/dsh-agent-teams
+dsh-mnemon
+https://github.com/liustack/modsearch
+@ljwei-stak/dsh-model-route-bot
+https://github.com/MichengAI/dsh-skills-manager
+https://github.com/tencent-connect/dsh-qqbot
+
+# 绘图与草图
+dsh-sketch
+dsh-sketchpad
+dsh-drawai
+dsh-diagram
+dsh-mermaid
+dsh-diagram-studio
+dsh-diagram-leapavid
+dsh-draw
+dsh-draw-mode
+dsh-image-gen
+
 # 3D 与建模
 https://github.com/STARDUSTLC666/dsh-blender-studio
 https://github.com/LAU-MARS/dsh-cad
