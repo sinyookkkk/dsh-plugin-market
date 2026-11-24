@@ -4,6 +4,13 @@
   "description": "deepseek plugin market",
   "metadata": {
     "sortKeys": {
+      "github_stars": {
+        "title": {
+          "en": "GitHub stars",
+          "zh": "GitHub 星标数"
+        },
+        "order": "desc"
+      },
       "npm_weekly_downloads": {
         "title": {
           "en": "npm weekly downloads",
@@ -38,7 +45,10 @@
           "anthropic",
           "openai",
           "pi-package"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 8304
+        }
       },
       "versions": [
         {
@@ -946,7 +956,10 @@
           "zh",
           "en",
           "language"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 752
+        }
       },
       "versions": [
         {
@@ -3640,7 +3653,10 @@
           "context",
           "token",
           "ui"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 5462
+        }
       },
       "versions": [
         {
@@ -5643,7 +5659,10 @@
           "image-to-text",
           "multimodal",
           "modlens"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 5075
+        }
       },
       "versions": [
         {
@@ -6200,7 +6219,10 @@
           "ocr",
           "screenshot",
           "plugin"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 1299
+        }
       },
       "versions": [
         {
@@ -6987,7 +7009,10 @@
           "plugin",
           "web-search",
           "search"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 91
+        }
       },
       "versions": [
         {
@@ -7420,6 +7445,7 @@
       ],
       "metadata": {
         "sortKeys": {
+          "github_stars": 62989,
           "npm_weekly_downloads": 27064
         }
       }
@@ -7446,7 +7472,10 @@
           "ai-agents",
           "cordis",
           "typescript"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 22
+        }
       },
       "versions": [
         {
@@ -7630,7 +7659,12 @@
             "commit": "2924246a1700ab88dd32316b686e053a7f245923"
           }
         }
-      ]
+      ],
+      "metadata": {
+        "sortKeys": {
+          "github_stars": 576
+        }
+      }
     },
     {
       "name": "cc-safety-net",
@@ -7658,7 +7692,10 @@
           "plugin",
           "safety",
           "security"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 2098
+        }
       },
       "versions": [
         {
@@ -8533,7 +8570,12 @@
             "dsh": "^0.1.0-rc.6"
           }
         }
-      ]
+      ],
+      "metadata": {
+        "sortKeys": {
+          "github_stars": 5305
+        }
+      }
     },
     {
       "name": "@linxin666/dsh-web-all",
@@ -8913,6 +8955,7 @@
       ],
       "metadata": {
         "sortKeys": {
+          "github_stars": 10622,
           "npm_weekly_downloads": 16105
         }
       }
@@ -8932,7 +8975,10 @@
           "deepseek-harness",
           "agent-skill",
           "architecture-diagram"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 99245
+        }
       },
       "versions": [
         {
@@ -8974,7 +9020,10 @@
           "pptx-generator",
           "演示文稿",
           "幻灯片"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 44
+        }
       },
       "versions": [
         {
@@ -9512,7 +9561,12 @@
             "commit": "69683780b4cad6a677225e20fbdbf368b9f0b09a"
           }
         }
-      ]
+      ],
+      "metadata": {
+        "sortKeys": {
+          "github_stars": 748
+        }
+      }
     },
     {
       "name": "dsh-openspec-opsx",
@@ -9534,6 +9588,7 @@
           "workflow"
         ],
         "sortKeys": {
+          "github_stars": 0,
           "npm_weekly_downloads": 318
         }
       },
@@ -9598,6 +9653,7 @@
       ],
       "metadata": {
         "sortKeys": {
+          "github_stars": 1,
           "npm_weekly_downloads": 38
         }
       }
@@ -9617,7 +9673,10 @@
           "superpowers",
           "sdd",
           "tdd"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 6
+        }
       },
       "versions": [
         {
@@ -9664,7 +9723,10 @@
           "plugin",
           "skills",
           "superpowers"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 171
+        }
       },
       "versions": [
         {
@@ -9920,6 +9982,7 @@
       ],
       "metadata": {
         "sortKeys": {
+          "github_stars": 0,
           "npm_weekly_downloads": 445
         }
       }
@@ -9953,7 +10016,10 @@
           "ai-agent",
           "3D建模",
           "渲染"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 0
+        }
       },
       "versions": [
         {
@@ -10006,7 +10072,10 @@
           "iges",
           "dxf",
           "svg"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 47
+        }
       },
       "versions": [
         {
@@ -10302,7 +10371,10 @@
           "dsh",
           "dsh-bundle",
           "plugin"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 1
+        }
       },
       "versions": [
         {
@@ -10367,7 +10439,12 @@
             "dsh": "0.2.2-rc.3"
           }
         }
-      ]
+      ],
+      "metadata": {
+        "sortKeys": {
+          "github_stars": 3
+        }
+      }
     },
     {
       "name": "@changfenhuang/dsh-genui",
@@ -10385,7 +10462,10 @@
           "generative-ui",
           "plugin",
           "ui"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 1049
+        }
       },
       "versions": [
         {
@@ -10698,7 +10778,10 @@
           "web-ui",
           "cordis",
           "react"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 6669
+        }
       },
       "versions": [
         {
@@ -11213,7 +11296,10 @@
           "deepseek-harness",
           "balance",
           "widget"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 7451
+        }
       },
       "versions": [
         {
@@ -11507,7 +11593,10 @@
           "verification",
           "task",
           "status-card"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 77
+        }
       },
       "versions": [
         {
@@ -11955,7 +12044,10 @@
           "meme",
           "emoticon",
           "sticker"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 603
+        }
       },
       "versions": [
         {
@@ -11998,7 +12090,10 @@
           "desktop-theme",
           "anthropic",
           "editorial"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 700
+        }
       },
       "versions": [
         {
