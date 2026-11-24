@@ -24,7 +24,7 @@ https://sinyookkkk.github.io/dsh-plugin-market/index.json
 
 ## 商店收录了哪些 plugin
 
-目前共 **30 个**。名称就是 DSH 里可以搜索的关键字。
+目前共 **37 个**。名称就是 DSH 里可以搜索的关键字。
 
 ### 必装与实用
 
@@ -65,6 +65,18 @@ https://sinyookkkk.github.io/dsh-plugin-market/index.json
 | `specpowers` | OpenSpec + Superpowers 组合 |
 | `superpowers-dsh` | Superpowers 软件开发方法论 |
 | `@zfdx123/dsh-superpowers` | Superpowers 技能与会话引导 |
+
+### 编码增强与高星补充
+
+| 插件 | 作用 |
+|---|---|
+| `dsh-lsp-actions` | LSP 诊断、格式化、补全、跳转定义 |
+| `dsh-ide-git` | IDE 级 Git 工具窗口，作为侧边栏 Tab |
+| `@michengai/dsh-code-review` | 独立子 Agent 做代码审查，出中英文报告 |
+| `@ziduup/dsh-programming-mode` | 强制 TDD、先计划后编码、完成前验证 |
+| `dsh-vscode-mode` | 类 VSCode 编辑体验，Monaco 编辑器与文件页签 |
+| `dsh-purge-community` | 状态自检、提示词/规则管理、本机备份与回滚 |
+| `treg-dsh` | 工具目录，4000+ agent-friendly 工具按需调用 |
 
 ### 3D 与建模
 

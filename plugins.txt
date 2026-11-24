@@ -31,6 +31,15 @@ https://github.com/SAXEM1997/specpowers
 https://github.com/LayneChai/superpowers-dsh
 @zfdx123/dsh-superpowers
 
+# 编码增强与高星补充
+https://github.com/PerryLink/dsh-lsp-actions
+https://github.com/KannaKuron/dsh-ide-git
+https://github.com/MichengAI/dsh-code-review
+https://github.com/ziduup/dsh-programming-mode
+https://github.com/Lenonss/DSH_VsCodeMode
+https://github.com/kingcharleslzy-ai/dsh-purge
+https://github.com/superdesigndev/treg
+
 # 3D 与建模
 https://github.com/STARDUSTLC666/dsh-blender-studio
 https://github.com/LAU-MARS/dsh-cad
