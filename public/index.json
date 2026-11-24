@@ -47,7 +47,7 @@
           "pi-package"
         ],
         "sortKeys": {
-          "github_stars": 8327
+          "github_stars": 8328
         }
       },
       "versions": [
@@ -958,7 +958,7 @@
           "language"
         ],
         "sortKeys": {
-          "github_stars": 756
+          "github_stars": 757
         }
       },
       "versions": [
@@ -7469,7 +7469,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 63082,
+          "github_stars": 63096,
           "npm_weekly_downloads": 27408
         }
       }
@@ -9011,7 +9011,7 @@
           "architecture-diagram"
         ],
         "sortKeys": {
-          "github_stars": 99413
+          "github_stars": 99423
         }
       },
       "versions": [
@@ -13870,7 +13870,7 @@
           "unrestricted"
         ],
         "sortKeys": {
-          "github_stars": 12244
+          "github_stars": 12261
         }
       },
       "versions": [
@@ -15031,7 +15031,7 @@
           "scraping"
         ],
         "sortKeys": {
-          "github_stars": 8851
+          "github_stars": 8853
         }
       },
       "versions": [
@@ -15070,7 +15070,10 @@
           "dsh-plugin",
           "deepseek-harness",
           "agent-skill"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 38945
+        }
       },
       "versions": [
         {
@@ -15125,7 +15128,10 @@
           "wallpaper-engine",
           "theme",
           "background"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 8055
+        }
       },
       "versions": [
         {
@@ -15331,7 +15337,10 @@
           "dsh-plugin",
           "deepseek-harness",
           "repository-tools"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 6006
+        }
       },
       "versions": [
         {
@@ -15583,7 +15592,10 @@
           "subagent",
           "ai-agent",
           "llm"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 3083
+        }
       },
       "versions": [
         {
@@ -16092,6 +16104,7 @@
           "supermemory"
         ],
         "sortKeys": {
+          "github_stars": 1113,
           "npm_weekly_downloads": 45351
         }
       },
@@ -17060,7 +17073,10 @@
           "modsearch",
           "dsh-plugin",
           "deepseek-harness"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 1038
+        }
       },
       "versions": [
         {
@@ -17740,6 +17756,7 @@
       ],
       "metadata": {
         "sortKeys": {
+          "github_stars": 1020,
           "npm_weekly_downloads": 2868
         }
       }
@@ -17783,7 +17800,10 @@
           "agent-skills",
           "ai-agent",
           "cordis"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 610
+        }
       },
       "versions": [
         {
@@ -19374,7 +19394,10 @@
           "plugin",
           "chatbot",
           "im"
-        ]
+        ],
+        "sortKeys": {
+          "github_stars": 629
+        }
       },
       "versions": [
         {
@@ -19500,6 +19523,7 @@
           "attachment"
         ],
         "sortKeys": {
+          "github_stars": 0,
           "npm_weekly_downloads": 25
         }
       },
@@ -19538,6 +19562,7 @@
           "sketch"
         ],
         "sortKeys": {
+          "github_stars": 3,
           "npm_weekly_downloads": 440
         }
       },
@@ -19594,6 +19619,7 @@
           "canvas"
         ],
         "sortKeys": {
+          "github_stars": 864,
           "npm_weekly_downloads": 6300
         }
       },
@@ -19873,6 +19899,7 @@
           "web-ui"
         ],
         "sortKeys": {
+          "github_stars": 21,
           "npm_weekly_downloads": 546
         }
       },
@@ -20026,6 +20053,7 @@
           "diagram"
         ],
         "sortKeys": {
+          "github_stars": 23,
           "npm_weekly_downloads": 3169
         }
       },
@@ -20229,6 +20257,7 @@
       ],
       "metadata": {
         "sortKeys": {
+          "github_stars": 1,
           "npm_weekly_downloads": 942
         }
       }
@@ -20256,6 +20285,7 @@
           "text-to-image"
         ],
         "sortKeys": {
+          "github_stars": 15,
           "npm_weekly_downloads": 1147
         }
       },
@@ -20592,6 +20622,7 @@
           "lora"
         ],
         "sortKeys": {
+          "github_stars": 0,
           "npm_weekly_downloads": 357
         }
       },
@@ -20666,6 +20697,7 @@
           "cordis"
         ],
         "sortKeys": {
+          "github_stars": 1720,
           "npm_weekly_downloads": 22466
         }
       },
@@ -21910,7 +21942,7 @@
           "react"
         ],
         "sortKeys": {
-          "github_stars": 6687
+          "github_stars": 6690
         }
       },
       "versions": [
@@ -22428,7 +22460,7 @@
           "widget"
         ],
         "sortKeys": {
-          "github_stars": 7462
+          "github_stars": 7463
         }
       },
       "versions": [
