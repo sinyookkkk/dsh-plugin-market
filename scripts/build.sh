@@ -36,3 +36,5 @@ pnpm --dir "$HARNESS_DIR" --filter @deepseek-ai/dsh-plugin-market-generator star
   --title "$TITLE" \
   --description "$DESCRIPTION" \
   --inline-icon-bytes 32768
+
+node "$ROOT/scripts/apply-market-metadata.mjs" "$OUTPUT" "$ROOT/categories.json"

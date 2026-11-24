@@ -1,0 +1,10 @@
+{
+  "name": "dsh-plugin-market",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/*.test.mjs",
+    "categorize": "node scripts/apply-market-metadata.mjs public/index.json categories.json"
+  }
+}

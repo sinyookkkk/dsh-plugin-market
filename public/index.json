@@ -4,19 +4,106 @@
   "description": "deepseek plugin market",
   "metadata": {
     "sortKeys": {
-      "github_stars": {
-        "title": {
-          "en": "GitHub stars",
-          "zh": "GitHub 星标数"
-        },
-        "order": "desc"
-      },
       "npm_weekly_downloads": {
         "title": {
           "en": "npm weekly downloads",
           "zh": "npm 周下载量"
         },
         "order": "desc"
+      }
+    },
+    "categories": {
+      "essentials": {
+        "title": {
+          "zh": "必备基础",
+          "en": "Essentials"
+        }
+      },
+      "capabilities": {
+        "title": {
+          "zh": "能力增强",
+          "en": "Capabilities"
+        }
+      },
+      "interface": {
+        "title": {
+          "zh": "界面效率",
+          "en": "Interface"
+        }
+      },
+      "development": {
+        "title": {
+          "zh": "开发工作流",
+          "en": "Development"
+        }
+      },
+      "token": {
+        "title": {
+          "zh": "Token 优化",
+          "en": "Token Optimization"
+        }
+      },
+      "graphics": {
+        "title": {
+          "zh": "绘图设计",
+          "en": "Graphics"
+        }
+      },
+      "modeling": {
+        "title": {
+          "zh": "3D 建模",
+          "en": "3D & Modeling"
+        }
+      },
+      "fun": {
+        "title": {
+          "zh": "趣味美化",
+          "en": "Fun"
+        }
+      },
+      "other": {
+        "title": {
+          "zh": "其他",
+          "en": "Other"
+        }
+      }
+    },
+    "labels": {
+      "vision": {
+        "title": {
+          "zh": "视觉",
+          "en": "Vision"
+        }
+      },
+      "search": {
+        "title": {
+          "zh": "搜索",
+          "en": "Search"
+        }
+      },
+      "memory": {
+        "title": {
+          "zh": "记忆",
+          "en": "Memory"
+        }
+      },
+      "saving": {
+        "title": {
+          "zh": "节省消耗",
+          "en": "Saves tokens"
+        }
+      },
+      "monitor": {
+        "title": {
+          "zh": "用量统计",
+          "en": "Usage monitor"
+        }
+      },
+      "local": {
+        "title": {
+          "zh": "需本机环境",
+          "en": "Local runtime"
+        }
       }
     }
   },
@@ -46,9 +133,8 @@
           "openai",
           "pi-package"
         ],
-        "sortKeys": {
-          "github_stars": 8328
-        }
+        "category": "essentials",
+        "labels": []
       },
       "versions": [
         {
@@ -957,9 +1043,8 @@
           "en",
           "language"
         ],
-        "sortKeys": {
-          "github_stars": 757
-        }
+        "category": "essentials",
+        "labels": []
       },
       "versions": [
         {
@@ -3678,9 +3763,8 @@
           "token",
           "ui"
         ],
-        "sortKeys": {
-          "github_stars": 5470
-        }
+        "category": "essentials",
+        "labels": []
       },
       "versions": [
         {
@@ -5684,11 +5768,21 @@
           "multimodal",
           "modlens"
         ],
-        "sortKeys": {
-          "github_stars": 5074
-        }
+        "category": "capabilities",
+        "labels": [
+          "vision"
+        ]
       },
       "versions": [
+        {
+          "version": "3.27.6",
+          "publishTimestamp": 1795547961,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/liustack/modlens",
+            "commit": "1130454f847af855e10f8e399feaeff14b8e4bd2"
+          }
+        },
         {
           "version": "3.27.5",
           "publishTimestamp": 1794753403,
@@ -6244,9 +6338,10 @@
           "screenshot",
           "plugin"
         ],
-        "sortKeys": {
-          "github_stars": 1300
-        }
+        "category": "capabilities",
+        "labels": [
+          "vision"
+        ]
       },
       "versions": [
         {
@@ -7034,9 +7129,10 @@
           "web-search",
           "search"
         ],
-        "sortKeys": {
-          "github_stars": 91
-        }
+        "category": "capabilities",
+        "labels": [
+          "search"
+        ]
       },
       "versions": [
         {
@@ -7469,9 +7565,12 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 63096,
           "npm_weekly_downloads": 27408
-        }
+        },
+        "category": "capabilities",
+        "labels": [
+          "memory"
+        ]
       }
     },
     {
@@ -7497,9 +7596,11 @@
           "cordis",
           "typescript"
         ],
-        "sortKeys": {
-          "github_stars": 22
-        }
+        "category": "capabilities",
+        "labels": [
+          "memory",
+          "search"
+        ]
       },
       "versions": [
         {
@@ -7685,9 +7786,8 @@
         }
       ],
       "metadata": {
-        "sortKeys": {
-          "github_stars": 576
-        }
+        "category": "capabilities",
+        "labels": []
       }
     },
     {
@@ -7717,9 +7817,8 @@
           "safety",
           "security"
         ],
-        "sortKeys": {
-          "github_stars": 2099
-        }
+        "category": "capabilities",
+        "labels": []
       },
       "versions": [
         {
@@ -8596,9 +8695,8 @@
         }
       ],
       "metadata": {
-        "sortKeys": {
-          "github_stars": 5313
-        }
+        "category": "interface",
+        "labels": []
       }
     },
     {
@@ -8989,9 +9087,10 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 10633,
           "npm_weekly_downloads": 15261
-        }
+        },
+        "category": "interface",
+        "labels": []
       }
     },
     {
@@ -9010,9 +9109,8 @@
           "agent-skill",
           "architecture-diagram"
         ],
-        "sortKeys": {
-          "github_stars": 99423
-        }
+        "category": "graphics",
+        "labels": []
       },
       "versions": [
         {
@@ -9055,11 +9153,22 @@
           "演示文稿",
           "幻灯片"
         ],
-        "sortKeys": {
-          "github_stars": 44
-        }
+        "category": "interface",
+        "labels": []
       },
       "versions": [
+        {
+          "version": "1.0.4",
+          "publishTimestamp": 1795542096,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/STARDUSTLC666/dsh-ppt",
+            "commit": "2f353493b8fcaeb13af6568dd864fb50783a82e7"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
+        },
         {
           "version": "1.0.3",
           "publishTimestamp": 1795531846,
@@ -9630,9 +9739,8 @@
         }
       ],
       "metadata": {
-        "sortKeys": {
-          "github_stars": 750
-        }
+        "category": "interface",
+        "labels": []
       }
     },
     {
@@ -9655,9 +9763,10 @@
           "workflow"
         ],
         "sortKeys": {
-          "github_stars": 0,
           "npm_weekly_downloads": 310
-        }
+        },
+        "category": "development",
+        "labels": []
       },
       "versions": [
         {
@@ -9720,9 +9829,10 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 1,
           "npm_weekly_downloads": 46
-        }
+        },
+        "category": "development",
+        "labels": []
       }
     },
     {
@@ -9741,9 +9851,8 @@
           "sdd",
           "tdd"
         ],
-        "sortKeys": {
-          "github_stars": 6
-        }
+        "category": "development",
+        "labels": []
       },
       "versions": [
         {
@@ -9791,9 +9900,8 @@
           "skills",
           "superpowers"
         ],
-        "sortKeys": {
-          "github_stars": 172
-        }
+        "category": "development",
+        "labels": []
       },
       "versions": [
         {
@@ -10049,9 +10157,10 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 0,
           "npm_weekly_downloads": 641
-        }
+        },
+        "category": "development",
+        "labels": []
       }
     },
     {
@@ -10092,9 +10201,8 @@
           "acp",
           "json-rpc"
         ],
-        "sortKeys": {
-          "github_stars": 43
-        }
+        "category": "development",
+        "labels": []
       },
       "versions": [
         {
@@ -10558,9 +10666,8 @@
           "sidebar",
           "commit-graph"
         ],
-        "sortKeys": {
-          "github_stars": 36
-        }
+        "category": "development",
+        "labels": []
       },
       "versions": [
         {
@@ -11634,9 +11741,8 @@
           "review",
           "subagent"
         ],
-        "sortKeys": {
-          "github_stars": 19
-        }
+        "category": "development",
+        "labels": []
       },
       "versions": [
         {
@@ -12054,9 +12160,8 @@
           "agent-preset",
           "superpowers"
         ],
-        "sortKeys": {
-          "github_stars": 17
-        }
+        "category": "development",
+        "labels": []
       },
       "versions": [
         {
@@ -12174,9 +12279,8 @@
           "diff-viewer",
           "files"
         ],
-        "sortKeys": {
-          "github_stars": 35
-        }
+        "category": "development",
+        "labels": []
       },
       "versions": [
         {
@@ -13869,9 +13973,8 @@
           "无限制模式",
           "unrestricted"
         ],
-        "sortKeys": {
-          "github_stars": 12261
-        }
+        "category": "development",
+        "labels": []
       },
       "versions": [
         {
@@ -15030,11 +15133,19 @@
           "enrichment",
           "scraping"
         ],
-        "sortKeys": {
-          "github_stars": 8853
-        }
+        "category": "capabilities",
+        "labels": []
       },
       "versions": [
+        {
+          "version": "0.32.0",
+          "publishTimestamp": 1795557495,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/superdesigndev/treg",
+            "commit": "d2a635507669bd2b4ea147e0a8abd8622c6dfb3b"
+          }
+        },
         {
           "version": "0.31.0",
           "publishTimestamp": 1794755739,
@@ -15071,9 +15182,8 @@
           "deepseek-harness",
           "agent-skill"
         ],
-        "sortKeys": {
-          "github_stars": 38945
-        }
+        "category": "other",
+        "labels": []
       },
       "versions": [
         {
@@ -15129,9 +15239,10 @@
           "theme",
           "background"
         ],
-        "sortKeys": {
-          "github_stars": 8055
-        }
+        "category": "fun",
+        "labels": [
+          "local"
+        ]
       },
       "versions": [
         {
@@ -15338,9 +15449,8 @@
           "deepseek-harness",
           "repository-tools"
         ],
-        "sortKeys": {
-          "github_stars": 6006
-        }
+        "category": "capabilities",
+        "labels": []
       },
       "versions": [
         {
@@ -15593,9 +15703,8 @@
           "ai-agent",
           "llm"
         ],
-        "sortKeys": {
-          "github_stars": 3083
-        }
+        "category": "development",
+        "labels": []
       },
       "versions": [
         {
@@ -16104,11 +16213,24 @@
           "supermemory"
         ],
         "sortKeys": {
-          "github_stars": 1113,
           "npm_weekly_downloads": 45351
-        }
+        },
+        "category": "capabilities",
+        "labels": [
+          "memory"
+        ]
       },
       "versions": [
+        {
+          "version": "0.5.55",
+          "publishTimestamp": 1795545367,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0"
+          }
+        },
         {
           "version": "0.5.54",
           "publishTimestamp": 1795458750,
@@ -17074,11 +17196,30 @@
           "dsh-plugin",
           "deepseek-harness"
         ],
-        "sortKeys": {
-          "github_stars": 1038
-        }
+        "category": "capabilities",
+        "labels": [
+          "search"
+        ]
       },
       "versions": [
+        {
+          "version": "5.10.16",
+          "publishTimestamp": 1795552410,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/liustack/modsearch",
+            "commit": "6fa99627e226c530b520bd37dcbdc3deaf370ec8"
+          }
+        },
+        {
+          "version": "5.10.15",
+          "publishTimestamp": 1795546883,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/liustack/modsearch",
+            "commit": "2d1ad03ba1fed4be7def356d85007ecce9ce93f6"
+          }
+        },
         {
           "version": "5.10.14",
           "publishTimestamp": 1794752570,
@@ -17756,9 +17897,10 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 1020,
           "npm_weekly_downloads": 2868
-        }
+        },
+        "category": "capabilities",
+        "labels": []
       }
     },
     {
@@ -17801,9 +17943,8 @@
           "ai-agent",
           "cordis"
         ],
-        "sortKeys": {
-          "github_stars": 610
-        }
+        "category": "development",
+        "labels": []
       },
       "versions": [
         {
@@ -19395,9 +19536,8 @@
           "chatbot",
           "im"
         ],
-        "sortKeys": {
-          "github_stars": 629
-        }
+        "category": "capabilities",
+        "labels": []
       },
       "versions": [
         {
@@ -19523,9 +19663,10 @@
           "attachment"
         ],
         "sortKeys": {
-          "github_stars": 0,
           "npm_weekly_downloads": 25
-        }
+        },
+        "category": "graphics",
+        "labels": []
       },
       "versions": [
         {
@@ -19561,10 +19702,8 @@
           "handwriting",
           "sketch"
         ],
-        "sortKeys": {
-          "github_stars": 3,
-          "npm_weekly_downloads": 440
-        }
+        "category": "graphics",
+        "labels": []
       },
       "versions": [
         {
@@ -19618,10 +19757,8 @@
           "mxfile",
           "canvas"
         ],
-        "sortKeys": {
-          "github_stars": 864,
-          "npm_weekly_downloads": 6300
-        }
+        "category": "graphics",
+        "labels": []
       },
       "versions": [
         {
@@ -19898,10 +20035,8 @@
           "visualization",
           "web-ui"
         ],
-        "sortKeys": {
-          "github_stars": 21,
-          "npm_weekly_downloads": 546
-        }
+        "category": "graphics",
+        "labels": []
       },
       "versions": [
         {
@@ -20052,10 +20187,8 @@
           "mermaid",
           "diagram"
         ],
-        "sortKeys": {
-          "github_stars": 23,
-          "npm_weekly_downloads": 3169
-        }
+        "category": "graphics",
+        "labels": []
       },
       "versions": [
         {
@@ -20181,9 +20314,8 @@
           "architecture",
           "cordis"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 30
-        }
+        "category": "graphics",
+        "labels": []
       },
       "versions": [
         {
@@ -20256,10 +20388,8 @@
         }
       ],
       "metadata": {
-        "sortKeys": {
-          "github_stars": 1,
-          "npm_weekly_downloads": 942
-        }
+        "category": "graphics",
+        "labels": []
       }
     },
     {
@@ -20284,10 +20414,8 @@
           "zhipu",
           "text-to-image"
         ],
-        "sortKeys": {
-          "github_stars": 15,
-          "npm_weekly_downloads": 1147
-        }
+        "category": "graphics",
+        "labels": []
       },
       "versions": [
         {
@@ -20621,10 +20749,10 @@
           "text-to-image",
           "lora"
         ],
-        "sortKeys": {
-          "github_stars": 0,
-          "npm_weekly_downloads": 357
-        }
+        "category": "graphics",
+        "labels": [
+          "local"
+        ]
       },
       "versions": [
         {
@@ -20696,10 +20824,8 @@
           "byok",
           "cordis"
         ],
-        "sortKeys": {
-          "github_stars": 1720,
-          "npm_weekly_downloads": 22466
-        }
+        "category": "graphics",
+        "labels": []
       },
       "versions": [
         {
@@ -21102,6 +21228,3104 @@
       ]
     },
     {
+      "name": "dsh-boost",
+      "title": {
+        "en": "dsh-boost",
+        "zh": "dsh-boost"
+      },
+      "description": {
+        "en": "Cut DeepSeek Harness token usage by projecting tool receipts and substituting deterministic read-only calls.",
+        "zh": "通过工具回执投影与确定性只读替换降低 DeepSeek Harness 的 token 消耗。"
+      },
+      "homepage": "https://github.com/SAXEM1997/dsh-boost",
+      "repository": {
+        "url": "https://github.com/SAXEM1997/dsh-boost"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "token-efficiency",
+          "prompt-cache",
+          "tool-receipt",
+          "delegation"
+        ],
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.4.4",
+          "publishTimestamp": 1795511836,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.4.3",
+          "publishTimestamp": 1795509345,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.4.2",
+          "publishTimestamp": 1795507693,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1795505772,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1795503890,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.14",
+          "publishTimestamp": 1795499070,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.13",
+          "publishTimestamp": 1795494391,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.12",
+          "publishTimestamp": 1795491649,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.11",
+          "publishTimestamp": 1795489418,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.10",
+          "publishTimestamp": 1795488664,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.9",
+          "publishTimestamp": 1795487841,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.8",
+          "publishTimestamp": 1795485646,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.7",
+          "publishTimestamp": 1795481411,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.6",
+          "publishTimestamp": 1795480709,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.5",
+          "publishTimestamp": 1795452126,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.4",
+          "publishTimestamp": 1795450779,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.3",
+          "publishTimestamp": 1795447830,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1795443339,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1795439207,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1795433802,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.2.7",
+          "publishTimestamp": 1795421267,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.2.6",
+          "publishTimestamp": 1795370174,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.2.5",
+          "publishTimestamp": 1795369738,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.2.4",
+          "publishTimestamp": 1795364685,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.2.3",
+          "publishTimestamp": 1795362868,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1795349670,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1795344252,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1795321284,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.1.4",
+          "publishTimestamp": 1795245026,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1795239336,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1795233424,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1795198023,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-rc.4"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795193530,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-rc.4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-context-compression-improved",
+      "title": "dsh-context-compression-improved",
+      "repository": {
+        "url": "https://github.com/drscrewdriver/dsh-context-compression-improved"
+      },
+      "versions": [
+        {
+          "version": "0.15.5",
+          "publishTimestamp": 1795549561,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.15.4",
+          "publishTimestamp": 1795549602,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.15.3",
+          "publishTimestamp": 1795549345,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.15.2",
+          "publishTimestamp": 1795549032,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.15.1",
+          "publishTimestamp": 1795548593,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.15.0",
+          "publishTimestamp": 1795548414,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.14.5",
+          "publishTimestamp": 1795548637,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.14.4",
+          "publishTimestamp": 1795548560,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.14.3",
+          "publishTimestamp": 1795548371,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.14.2",
+          "publishTimestamp": 1795548461,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.14.1",
+          "publishTimestamp": 1795548142,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.14.0",
+          "publishTimestamp": 1795548084,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.13.4",
+          "publishTimestamp": 1795547929,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.13.3",
+          "publishTimestamp": 1795547904,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.13.2",
+          "publishTimestamp": 1795547830,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.13.1",
+          "publishTimestamp": 1795547634,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.13.0",
+          "publishTimestamp": 1795547498,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.12.0",
+          "publishTimestamp": 1795524142,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.11.4",
+          "publishTimestamp": 1795101266,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.11.3",
+          "publishTimestamp": 1794748181,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.11.2",
+          "publishTimestamp": 1794703227,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.11.1",
+          "publishTimestamp": 1794653696,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.11.0",
+          "publishTimestamp": 1794056771,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "0.10.5",
+          "publishTimestamp": 1793977785,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "0.10.4",
+          "publishTimestamp": 1793970619,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.2 || 0.1.0-rc.3 || 0.1.0-rc.6 || 0.1.0-rc.7 || 0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.10.3",
+          "publishTimestamp": 1793388129,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.2 || 0.1.0-rc.3 || 0.1.0-rc.6 || 0.1.0-rc.7 || 0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5"
+          }
+        },
+        {
+          "version": "0.10.2",
+          "publishTimestamp": 1793202914,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.2 || 0.1.0-rc.3 || 0.1.0-rc.6 || 0.1.0-rc.7 || 0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4"
+          }
+        },
+        {
+          "version": "0.10.1",
+          "publishTimestamp": 1793188647,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.2 || 0.1.0-rc.3 || 0.1.0-rc.6 || 0.1.0-rc.7 || 0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4"
+          }
+        },
+        {
+          "version": "0.10.0",
+          "publishTimestamp": 1792822595,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.2 || 0.1.0-rc.3 || 0.1.0-rc.6 || 0.1.0-rc.7 || 0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.9.9",
+          "publishTimestamp": 1792519922,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.2 || 0.1.0-rc.3 || 0.1.0-rc.6 || 0.1.0-rc.7 || 0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.9.9-beta.0",
+          "publishTimestamp": 1792487891,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.2 || 0.1.0-rc.3 || 0.1.0-rc.6 || 0.1.0-rc.7 || 0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.9.8",
+          "publishTimestamp": 1792327109,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.2 || 0.1.0-rc.3 || 0.1.0-rc.6 || 0.1.0-rc.7 || 0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.9.7",
+          "publishTimestamp": 1792236054,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.2 || 0.1.0-rc.3 || 0.1.0-rc.6 || 0.1.0-rc.7 || 0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1"
+          }
+        },
+        {
+          "version": "0.9.5",
+          "publishTimestamp": 1792094308,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.2 || 0.1.0-rc.3 || 0.1.0-rc.6 || 0.1.0-rc.7 || 0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.9.3",
+          "publishTimestamp": 1791498663,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.2 || 0.1.0-rc.3 || 0.1.0-rc.6 || 0.1.0-rc.7 || 0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.9.0",
+          "publishTimestamp": 1791413591,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.2 || 0.1.0-rc.3 || 0.1.0-rc.6 || 0.1.0-rc.7 || 0.1.0-rc.8 || 0.1.1-rc.1 || 0.1.1-rc.2 || 0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.8.0",
+          "publishTimestamp": 1790912889,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.2.1-0"
+          }
+        },
+        {
+          "version": "0.8.0-beta.7",
+          "publishTimestamp": 1790895666,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.2.1-0"
+          }
+        },
+        {
+          "version": "0.8.0-beta.6",
+          "publishTimestamp": 1790894538,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.2.1-0"
+          }
+        },
+        {
+          "version": "0.8.0-beta.5",
+          "publishTimestamp": 1790890980,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.2.1-0"
+          }
+        },
+        {
+          "version": "0.8.0-beta.4",
+          "publishTimestamp": 1790887166,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.2.1-0"
+          }
+        },
+        {
+          "version": "0.8.0-beta.3",
+          "publishTimestamp": 1790874973,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.2.1-0"
+          }
+        },
+        {
+          "version": "0.8.0-beta.2",
+          "publishTimestamp": 1790855075,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.2.1-0"
+          }
+        },
+        {
+          "version": "0.8.0-beta.1",
+          "publishTimestamp": 1790709012,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.2.1-0"
+          }
+        },
+        {
+          "version": "0.7.0",
+          "publishTimestamp": 1790963508,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.1.8-0"
+          }
+        },
+        {
+          "version": "0.7.0-beta.2",
+          "publishTimestamp": 1790877280,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.1.8-0"
+          }
+        },
+        {
+          "version": "0.7.0-beta.1",
+          "publishTimestamp": 1790707078,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.1.8-0"
+          }
+        },
+        {
+          "version": "0.6.5",
+          "publishTimestamp": 1790702232,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.1.8-0"
+          }
+        },
+        {
+          "version": "0.6.4",
+          "publishTimestamp": 1790415307,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.1.8-0"
+          }
+        },
+        {
+          "version": "0.6.3",
+          "publishTimestamp": 1790372394,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.1.8-0"
+          }
+        },
+        {
+          "version": "0.6.2",
+          "publishTimestamp": 1790367228,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.1.8-0"
+          }
+        },
+        {
+          "version": "0.6.1",
+          "publishTimestamp": 1790350305,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.1.8-0"
+          }
+        },
+        {
+          "version": "0.6.0",
+          "publishTimestamp": 1790329540,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.5.8",
+          "publishTimestamp": 1790963639,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.1.6-0"
+          }
+        },
+        {
+          "version": "0.5.7",
+          "publishTimestamp": 1790875957,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.1.6-0"
+          }
+        },
+        {
+          "version": "0.5.6",
+          "publishTimestamp": 1790350038,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.1.6-0"
+          }
+        },
+        {
+          "version": "0.5.5",
+          "publishTimestamp": 1789928485,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.5.4",
+          "publishTimestamp": 1789910181,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.5.3",
+          "publishTimestamp": 1789897746,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.5.2",
+          "publishTimestamp": 1789883973,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.5.1",
+          "publishTimestamp": 1789882509,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1789872685,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1789845505,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.4.0-beta.1",
+          "publishTimestamp": 1789720381,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1789711233,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1789709165,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-alpha.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.2.5",
+          "publishTimestamp": 1790963703,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.1.3-0"
+          }
+        },
+        {
+          "version": "0.2.4",
+          "publishTimestamp": 1790876996,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.1.3-0"
+          }
+        },
+        {
+          "version": "0.2.3",
+          "publishTimestamp": 1790354492,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.1.3-0"
+          }
+        },
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1789928287,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1789709975,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1789708539,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.2.0-0"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1789498166,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.2.0-0"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
+      }
+    },
+    {
+      "name": "dsh-context-fold",
+      "title": {
+        "en": "Context Fold (dsh-context-fold)",
+        "zh": "上下文折叠 (dsh-context-fold)"
+      },
+      "description": {
+        "en": "Stage-boundary folding of completed tool results and historical reasoning: conclusions stay in the window, full text moves to a spill file, and /context-fold reports savings and re-reads.",
+        "zh": "阶段边界的 tool 结果与历史 reasoning 折叠：结论留在窗口里，正文落到 spill 文件，用 /context-fold 报告折叠量与被重读次数。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMS42IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPg0KICA8cGF0aCBkPSJNNCA2aDE2IiAvPg0KICA8cGF0aCBkPSJNNCAxMmgxNiIgLz4NCiAgPHBhdGggZD0iTTQgMThoNyIgLz4NCiAgPHBhdGggZD0iTTE1IDE2bDIgMiA0LTQiIC8+DQo8L3N2Zz4NCg==",
+      "versions": [
+        {
+          "version": "0.5.2",
+          "publishTimestamp": 1795101621,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.5.1",
+          "publishTimestamp": 1794998646,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1794991121,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1794833378,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1794754287,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.3.4",
+          "publishTimestamp": 1794752377,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.3.3",
+          "publishTimestamp": 1794751434,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1794750419,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1794749479,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1794748525,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1794745805,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1794740360,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794735918,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1794733404,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.1.4",
+          "publishTimestamp": 1794732433,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1794731403,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1794730393,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1794729589,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794560495,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
+      }
+    },
+    {
+      "name": "dsh-live-compact",
+      "title": "dsh-live-compact",
+      "description": "In-place newest-turn compaction for DeepSeek Harness. Compress while the task runs and keep the prefix.",
+      "author": "MerkyorLynn",
+      "homepage": "https://github.com/Tranquillitatis-Lab/dsh-live-compact#readme",
+      "repository": {
+        "url": "https://github.com/Tranquillitatis-Lab/dsh-live-compact"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "dsh",
+          "compaction"
+        ],
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.1.12",
+          "publishTimestamp": 1794867904,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.11",
+          "publishTimestamp": 1794754656,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.10",
+          "publishTimestamp": 1794731761,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.9",
+          "publishTimestamp": 1794718706,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.8",
+          "publishTimestamp": 1794709225,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.7",
+          "publishTimestamp": 1794586062,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.6",
+          "publishTimestamp": 1794534856,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.5",
+          "publishTimestamp": 1794330096,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.4",
+          "publishTimestamp": 1794268692,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.3",
+          "publishTimestamp": 1794185459,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.2",
+          "publishTimestamp": 1794139407,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.1",
+          "publishTimestamp": 1794046229,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.0",
+          "publishTimestamp": 1794020001,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.0.9",
+          "publishTimestamp": 1793949662,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.0.8",
+          "publishTimestamp": 1793869090,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.0.7",
+          "publishTimestamp": 1793861942,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.0.6",
+          "publishTimestamp": 1793812626,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-compaction-weave",
+      "title": {
+        "en": "Weave Context Compaction",
+        "zh": "Weave 上下文压缩"
+      },
+      "description": {
+        "en": "Cache-friendly incremental summaries with requirement and progress retention, live progress display, history lookup, resumable pages, failure retries, and billion-context migration with full backup.",
+        "zh": "缓存友好的增量摘要，保留有效要求和工作进度，支持实时进度展示、历史回查、分页接续、失败重试与 billion-context 备份迁移。"
+      },
+      "homepage": "https://github.com/NightFrost42/dsh-compaction-weave#readme",
+      "repository": {
+        "url": "https://github.com/NightFrost42/dsh-compaction-weave"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "compaction",
+          "context",
+          "deepseek",
+          "context-compression",
+          "prompt-caching",
+          "conversation-history"
+        ],
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.5.3-hotfix.1",
+          "publishTimestamp": 1795545311,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0-0"
+          }
+        },
+        {
+          "version": "0.5.2",
+          "publishTimestamp": 1795519668,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0-0"
+          }
+        },
+        {
+          "version": "0.5.1",
+          "publishTimestamp": 1795452159,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0-0"
+          }
+        },
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1795438061,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0-0"
+          }
+        },
+        {
+          "version": "0.4.5",
+          "publishTimestamp": 1795422679,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0-0"
+          }
+        },
+        {
+          "version": "0.4.4",
+          "publishTimestamp": 1795385298,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0-0"
+          }
+        },
+        {
+          "version": "0.4.3",
+          "publishTimestamp": 1795365519,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0-0"
+          }
+        },
+        {
+          "version": "0.4.2",
+          "publishTimestamp": 1795344847,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0-0"
+          }
+        },
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1795336282,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0-0"
+          }
+        },
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1795309321,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0-0"
+          }
+        },
+        {
+          "version": "0.3.4",
+          "publishTimestamp": 1795257502,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0-0"
+          }
+        },
+        {
+          "version": "0.3.3",
+          "publishTimestamp": 1795255664,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "billion-context-dsh",
+      "title": "billion-context-dsh",
+      "description": "Active Context Pruning (ACP) for the DeepSeek Harness — model-driven context management as a CompactionEngine backend.",
+      "metadata": {
+        "keywords": [
+          "deepseek",
+          "harness",
+          "dsh",
+          "dsh-plugin",
+          "acp",
+          "context-management",
+          "context-compression",
+          "llm",
+          "agent",
+          "compaction"
+        ],
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1787128911,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        },
+        {
+          "version": "0.2.27",
+          "publishTimestamp": 1791454193,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-alpha.1 <0.2.1-0 0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.2.26",
+          "publishTimestamp": 1790236815,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-alpha.1 <0.1.6-0"
+          }
+        },
+        {
+          "version": "0.2.25",
+          "publishTimestamp": 1789898668,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-alpha.1 <0.1.6-0"
+          }
+        },
+        {
+          "version": "0.2.24",
+          "publishTimestamp": 1789887931,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-alpha.1 <0.1.6-0"
+          }
+        },
+        {
+          "version": "0.2.23",
+          "publishTimestamp": 1789363767,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-alpha.1 <0.1.6-0"
+          }
+        },
+        {
+          "version": "0.2.22",
+          "publishTimestamp": 1789203780,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-alpha.1 <0.1.6-0"
+          }
+        },
+        {
+          "version": "0.2.21",
+          "publishTimestamp": 1788709611,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1 || ^0.1.2-alpha.4"
+          }
+        },
+        {
+          "version": "0.2.20",
+          "publishTimestamp": 1788697715,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1 || ^0.1.2-alpha.4"
+          }
+        },
+        {
+          "version": "0.2.19",
+          "publishTimestamp": 1788410951,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1 || ^0.1.2-alpha.4"
+          }
+        },
+        {
+          "version": "0.2.18",
+          "publishTimestamp": 1788362749,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1 || ^0.1.2-alpha.4"
+          }
+        },
+        {
+          "version": "0.2.17",
+          "publishTimestamp": 1788269548,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1"
+          }
+        },
+        {
+          "version": "0.2.16",
+          "publishTimestamp": 1788239656,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1"
+          }
+        },
+        {
+          "version": "0.2.15",
+          "publishTimestamp": 1788176983,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1"
+          }
+        },
+        {
+          "version": "0.2.14",
+          "publishTimestamp": 1788169479,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1"
+          }
+        },
+        {
+          "version": "0.2.13",
+          "publishTimestamp": 1787648795,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1"
+          }
+        },
+        {
+          "version": "0.2.12",
+          "publishTimestamp": 1787563445,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1"
+          }
+        },
+        {
+          "version": "0.2.11",
+          "publishTimestamp": 1787461016,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        },
+        {
+          "version": "0.2.10",
+          "publishTimestamp": 1787412285,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        },
+        {
+          "version": "0.2.9",
+          "publishTimestamp": 1787327868,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        },
+        {
+          "version": "0.2.8",
+          "publishTimestamp": 1787301599,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        },
+        {
+          "version": "0.2.7",
+          "publishTimestamp": 1787242332,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        },
+        {
+          "version": "0.2.6",
+          "publishTimestamp": 1787130637,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        },
+        {
+          "version": "0.2.5",
+          "publishTimestamp": 1787129056,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        },
+        {
+          "version": "0.2.4",
+          "publishTimestamp": 1787044151,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        },
+        {
+          "version": "0.2.3",
+          "publishTimestamp": 1787038623,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        },
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1786947647,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1786811475,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1786809349,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-compact-manager",
+      "title": "dsh-compact-manager",
+      "description": "接管上下文压缩：手动与自动压缩均支持模型压缩和机械折页压缩。模型压缩支持备用模型兜底或直接使用备用模型；机械折页压缩速度快、不消耗 token、原始事件按原序号留在只追加的会话日志里（按 seq 可回溯），算法取自 dsh-ledger-compact。",
+      "author": "tony92921",
+      "homepage": "https://github.com/tony92921/dsh-compact-manager#readme",
+      "repository": {
+        "url": "https://github.com/tony92921/dsh-compact-manager"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "cordis",
+          "compaction",
+          "context",
+          "compact-manager",
+          "ingress"
+        ],
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.2",
+          "publishTimestamp": 1795498217,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.2.1 || >=0.2.1-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.0.1",
+          "publishTimestamp": 1793595040,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.2.1 || >=0.2.1-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793342804,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.2.1 || >=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-compact-suite",
+      "title": "dsh-compact-suite",
+      "description": "面向本地部署的 DSH 上下文压缩控制面：面板一键立即压缩、摘要改走指定模型（省掉本地卡的全长 prefill）、让触发阈值真正生效、引擎读数对齐卡片、暂停即完整还原。基线为 dsh-compaction-threshold 1.0.3（MIT）。",
+      "author": "NoiraBaka",
+      "homepage": "https://github.com/NoiraBaka/dsh-compact-suite#readme",
+      "repository": {
+        "url": "https://github.com/NoiraBaka/dsh-compact-suite"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "compaction",
+          "context",
+          "threshold",
+          "summarization"
+        ],
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
+      },
+      "versions": [
+        {
+          "version": "2.9.2",
+          "publishTimestamp": 1792227241,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "2.8.9",
+          "publishTimestamp": 1791814426,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "2.8.7",
+          "publishTimestamp": 1791793795,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "2.8.6",
+          "publishTimestamp": 1791710812,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "2.8.5",
+          "publishTimestamp": 1791557864,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-compact-arsenal",
+      "title": {
+        "en": "Compact Arsenal",
+        "zh": "压缩工坊 (compact-arsenal)"
+      },
+      "description": {
+        "en": "Configurable context compaction with three independent sections: whole-context summary, reasoning trimming and tool-output pruning.",
+        "zh": "可配置的上下文压缩：总压缩、思考压缩、工具输出压缩三个独立板块，每个板块自带总开关与参数。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InQgZCI+CiAgPHRpdGxlIGlkPSJ0Ij5Db21wYWN0IEFyc2VuYWw8L3RpdGxlPgogIDxkZXNjIGlkPSJkIj5UaHJlZSBzdGFja2VkIGJhcnMgYmVpbmcgc3F1ZWV6ZWQgaW50byBhIHNpbmdsZSBzaG9ydGVyIHN0YWNrLjwvZGVzYz4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iI2VlZjNmZiIvPgogIDxnIHN0cm9rZT0iIzFmM2E4YSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgPHBhdGggZD0iTTE0IDE2aDM2Ii8+CiAgICA8cGF0aCBkPSJNMTggMjdoMjgiLz4KICAgIDxwYXRoIGQ9Ik0yMiAzOGgyMCIvPgogIDwvZz4KICA8ZyBmaWxsPSIjNGI2ZmZmIj4KICAgIDxwYXRoIGQ9Ik0xOCA0NmwxNCA4IDE0LTgtMTQtOHoiLz4KICA8L2c+CiAgPHBhdGggZD0iTTMyIDU0di04IiBzdHJva2U9IiMxZjNhOGEiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=",
+      "author": "TacitSay",
+      "homepage": "https://github.com/TacitSay/dsh-compact-arsenal",
+      "repository": {
+        "url": "https://github.com/TacitSay/dsh-compact-arsenal"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "cordis",
+          "compaction",
+          "context",
+          "token",
+          "reasoning",
+          "tool-output",
+          "ui"
+        ],
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.11.0",
+          "publishTimestamp": 1794663613,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.9.0",
+          "publishTimestamp": 1794562785,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.5.1",
+          "publishTimestamp": 1794398909,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1794398879,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1794384434,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1794379409,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1794313861,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794139990,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-context-redline",
+      "title": {
+        "en": "Context Redline",
+        "zh": "上下文批改"
+      },
+      "description": {
+        "en": "Context Redline (dsh-context-redline): the context browser made editable — read the full text, edit one item, save locally only, and carry it into a child session verbatim. Coexists with the upstream context plugin; neither overrides the other.",
+        "zh": "上下文批改（dsh-context-redline）：把上下文浏览器做成可编辑的 —— 看全文、改一条、只存本地，开子会话时逐字带进去。与上游那个上下文插件并存、互不覆盖。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPjwhLS0gT3JpZ2luYWwgYXJ0d29yayBmb3IgZHNoLWNvbnRleHQtcmVkbGluZSAoTUlUKS4gTm90IGRlcml2ZWQgZnJvbSB0aGUgZHNoLWNvbnRleHQgaWNvbjogdGhpcyBpcyBhIHJlZGxpbmUtb24tY29udGV4dC1yb3dzIG1vdGlmIGRyYXduIGZvciB0aGlzIGZvcmsuIC0tPgogIDxwYXRoIGQ9Ik0xMDkgMTY4SDEwOUExMyAxMyAwIDAgMSAxMjIgMTgxVjg0M0ExMyAxMyAwIDAgMSAxMDkgODU2SDEwOUExMyAxMyAwIDAgMSA5NiA4NDNWMTgxQTEzIDEzIDAgMCAxIDEwOSAxNjhaIiBmaWxsPSIjN0M1Q0Q2Ii8+CiAgPHBhdGggZD0iTTIwNiAxNjhIODk4QTMwIDMwIDAgMCAxIDkyOCAxOThWMjMwQTMwIDMwIDAgMCAxIDg5OCAyNjBIMjA2QTMwIDMwIDAgMCAxIDE3NiAyMzBWMTk4QTMwIDMwIDAgMCAxIDIwNiAxNjhaIiBmaWxsPSIjNUI2NDc4Ii8+CiAgPHBhdGggZD0iTTIwNiAzMDBINzQ2QTMwIDMwIDAgMCAxIDc3NiAzMzBWMzYyQTMwIDMwIDAgMCAxIDc0NiAzOTJIMjA2QTMwIDMwIDAgMCAxIDE3NiAzNjJWMzMwQTMwIDMwIDAgMCAxIDIwNiAzMDBaIiBmaWxsPSIjNEY2M0M4Ii8+CiAgPHBhdGggZD0iTTIwNiA0MzJIODUwQTMwIDMwIDAgMCAxIDg4MCA0NjJWNDk0QTMwIDMwIDAgMCAxIDg1MCA1MjRIMjA2QTMwIDMwIDAgMCAxIDE3NiA0OTRWNDYyQTMwIDMwIDAgMCAxIDIwNiA0MzJaIiBmaWxsPSIjRTBBMzJFIi8+CiAgPHBhdGggZD0iTTIwNiA1NjRINjY2QTMwIDMwIDAgMCAxIDY5NiA1OTRWNjI2QTMwIDMwIDAgMCAxIDY2NiA2NTZIMjA2QTMwIDMwIDAgMCAxIDE3NiA2MjZWNTk0QTMwIDMwIDAgMCAxIDIwNiA1NjRaIiBmaWxsPSIjMkZBM0EwIi8+CiAgPHBhdGggZD0iTTIwNiA2OTZIODE4QTMwIDMwIDAgMCAxIDg0OCA3MjZWNzU4QTMwIDMwIDAgMCAxIDgxOCA3ODhIMjA2QTMwIDMwIDAgMCAxIDE3NiA3NThWNzI2QTMwIDMwIDAgMCAxIDIwNiA2OTZaIiBmaWxsPSIjRDAzNDJDIi8+CiAgPHBhdGggZD0iTTIwNiA4MjhINTA2QTMwIDMwIDAgMCAxIDUzNiA4NThWODkwQTMwIDMwIDAgMCAxIDUwNiA5MjBIMjA2QTMwIDMwIDAgMCAxIDE3NiA4OTBWODU4QTMwIDMwIDAgMCAxIDIwNiA4MjhaIiBmaWxsPSIjNUI2NDc4Ii8+CiAgPHBhdGggZD0iTTIyNSA4NzdMODcxIDM3Mkw4OTkgMzc1TDg5OSAzNzVMODk1IDQwM0wyNDkgOTA4TDIyMSA5MDVMMjIxIDkwNVoiIGZpbGw9IiNEMDM0MkMiLz4KICA8cGF0aCBkPSJNNzk0IDM3Mkg4MjRBMjQgMjQgMCAwIDEgODQ4IDM5NlY0MjZBMjQgMjQgMCAwIDEgODI0IDQ1MEg3OTRBMjQgMjQgMCAwIDEgNzcwIDQyNlYzOTZBMjQgMjQgMCAwIDEgNzk0IDM3MloiIGZpbGw9IiNEMDM0MkMiLz4KICA8cGF0aCBkPSJNMjUwIDk3NGE0NiA0NiAwIDEgMCA5MiAwIDQ2IDQ2IDAgMSAwLTkyIDBaIiBmaWxsPSIjN0M1Q0Q2Ii8+Cjwvc3ZnPgo=",
+      "homepage": "https://github.com/idoall/dsh-context-redline#readme",
+      "repository": {
+        "url": "https://github.com/idoall/dsh-context-redline"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "cordis",
+          "plugin",
+          "context",
+          "redline",
+          "edit",
+          "ui"
+        ],
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.9.4",
+          "publishTimestamp": 1795445764,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.3-alpha.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.9.3",
+          "publishTimestamp": 1795444847,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.3-alpha.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.9.2",
+          "publishTimestamp": 1795444432,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.3-alpha.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.9.1",
+          "publishTimestamp": 1795443257,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.3-alpha.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.9.0",
+          "publishTimestamp": 1795440708,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.3-alpha.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.8.4",
+          "publishTimestamp": 1795438565,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.3-alpha.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.8.3",
+          "publishTimestamp": 1795437598,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.3-alpha.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.8.2",
+          "publishTimestamp": 1795347617,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.8.1",
+          "publishTimestamp": 1795341650,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.8.0",
+          "publishTimestamp": 1795340481,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.7.0",
+          "publishTimestamp": 1795340083,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.6.1",
+          "publishTimestamp": 1795339034,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.6.0",
+          "publishTimestamp": 1795334732,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1795333596,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1795330961,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1795326713,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1795256730,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1795249170,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1795239238,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1794979431,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793840717,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1791989480,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.2 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-context-compression-selector",
+      "title": "dsh-context-compression-selector",
+      "description": "One-install context-compression selector bundle for DeepSeek Harness",
+      "author": "WilliamShi666",
+      "homepage": "https://github.com/WilliamShi666/dsh-context-compression-selector#readme",
+      "repository": {
+        "url": "https://github.com/WilliamShi666/dsh-context-compression-selector",
+        "directory": "packages/selector"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek",
+          "harness",
+          "context",
+          "compression",
+          "plugin"
+        ],
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1792127935,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.1-rc.2 || ^0.2.0-rc.1"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1792126227,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.1-rc.2 || ^0.2.0-rc.1"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1790163319,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1788381247,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.0-beta.4",
+          "publishTimestamp": 1788359361,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.0-beta.3",
+          "publishTimestamp": 1788342526,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.0-beta.2",
+          "publishTimestamp": 1787859723,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.0-beta.1",
+          "publishTimestamp": 1787772665,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-token-saver",
+      "title": "dsh-token-saver",
+      "description": "DeepSeek Harness plugin: aggressive token optimization without affecting task quality. Trims tool results, manages context window pressure, optional LLM-summary compaction, stable prompt-cache layout.",
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "deepseek",
+          "deepseek-harness",
+          "token-saver",
+          "compaction"
+        ],
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1788750572,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Shaw529/dsh-token-saver",
+            "commit": "d332dbba198483f9ebc051b96908fe82b813decc"
+          },
+          "engines": {
+            "dsh": ">=0.0.1-rc.1 <0.1.0 || >=0.0.1-rc.1 <0.2.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-token-manager",
+      "title": "dsh-token-manager",
+      "description": "DSH Token Manager — Token 成本监控、模型调用效率分析与上下文优化（DeepSeek Harness Cordis 插件）",
+      "icon": "data:image/png;base64,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",
+      "author": "ZHIRAI",
+      "homepage": "https://github.com/zhirai-tech/dsh-token-manager#readme",
+      "repository": {
+        "url": "https://github.com/zhirai-tech/dsh-token-manager"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "tokens",
+          "cost",
+          "monitoring",
+          "cache",
+          "observability"
+        ],
+        "category": "token",
+        "labels": [
+          "monitor"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.3.3",
+          "publishTimestamp": 1793564296,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-billing-stats",
+      "title": "dsh-billing-stats",
+      "description": "Minimal, read-only DSH token billing statistics with per-turn and session equivalent API cost.",
+      "homepage": "https://github.com/SSHOOTING/dsh-billing-stats#readme",
+      "repository": {
+        "url": "https://github.com/SSHOOTING/dsh-billing-stats"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek",
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "billing",
+          "billing-stats",
+          "cost",
+          "subscription",
+          "api-cost",
+          "token-usage",
+          "observability"
+        ],
+        "category": "token",
+        "labels": [
+          "monitor"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.1.2",
+          "publishTimestamp": 1795093994,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.2.1"
+          }
+        },
+        {
+          "version": "1.1.1",
+          "publishTimestamp": 1795090618,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.2.1"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794447429,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-usage-stats",
+      "title": "dsh-usage-stats",
+      "description": "Lightweight usage analytics for DeepSeek Harness — token trends, activity heatmaps, model breakdowns, and exports.",
+      "author": "lanlandeli",
+      "homepage": "https://github.com/lanlandeli/dsh-usage-stats#readme",
+      "repository": {
+        "url": "https://github.com/lanlandeli/dsh-usage-stats"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek",
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "token-usage",
+          "data-visualization",
+          "analytics",
+          "usage-statistics"
+        ],
+        "category": "token",
+        "labels": [
+          "monitor"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.16",
+          "publishTimestamp": 1786978200,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.15",
+          "publishTimestamp": 1786776455,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.14",
+          "publishTimestamp": 1786773555,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.13",
+          "publishTimestamp": 1786773356,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.12",
+          "publishTimestamp": 1786720374,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.11",
+          "publishTimestamp": 1786705125,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.10",
+          "publishTimestamp": 1786686766,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.9",
+          "publishTimestamp": 1786684720,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6 <0.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-auto-memory",
+      "title": "dsh-auto-memory",
+      "description": "Auditable memory for DeepSeek Harness: 4-state trust machine + verbatim evidence chains + recall funnel + 4-layer evals. Plain Markdown, zero servers, zero embeddings.",
+      "repository": {
+        "url": "https://github.com/AskTheWay/dsh-auto-memory"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh-plugin",
+          "memory",
+          "agent",
+          "claude-code"
+        ],
+        "category": "token",
+        "labels": [
+          "monitor",
+          "memory"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.11.0",
+          "publishTimestamp": 1795117091,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.10.0",
+          "publishTimestamp": 1794946833,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.9.0",
+          "publishTimestamp": 1794924828,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.8.0",
+          "publishTimestamp": 1794687191,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.7.0",
+          "publishTimestamp": 1794641077,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.6.0",
+          "publishTimestamp": 1794508622,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.5.0",
+          "publishTimestamp": 1794137156,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.3.0",
+          "publishTimestamp": 1793307220,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.2.0",
+          "publishTimestamp": 1793018102,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.1.0",
+          "publishTimestamp": 1792870495,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1792686118,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "0.10.0",
+          "publishTimestamp": 1792682535,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "0.9.0",
+          "publishTimestamp": 1792349518,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "0.8.0",
+          "publishTimestamp": 1792341891,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "0.7.2",
+          "publishTimestamp": 1791918495,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "0.7.1",
+          "publishTimestamp": 1791634723,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "0.7.0",
+          "publishTimestamp": 1791476284,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "0.6.1",
+          "publishTimestamp": 1791398545,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.3.0"
+          }
+        },
+        {
+          "version": "0.6.0",
+          "publishTimestamp": 1791315060,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.2.0"
+          }
+        },
+        {
+          "version": "0.5.2",
+          "publishTimestamp": 1791233593,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.2.0"
+          }
+        },
+        {
+          "version": "0.5.1",
+          "publishTimestamp": 1791146401,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.2.0"
+          }
+        },
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1791143660,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.2.0"
+          }
+        },
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1791134812,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.2.0"
+          }
+        },
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1790359212,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.2.0"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1790271892,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.2.0"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1790083046,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.2 <0.2.0"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-blender-studio",
       "title": "dsh-blender-studio",
       "description": "DeepSeek Harness Blender 3D 创作与渲染工作台插件：6 个工具与 9 个内置技能（兼容 Blender 3.6–5.x），支持 Headless CLI 渲染（静帧 / 2×2 四视角质检 / MP4 / GLB·FBX·OBJ·STL·.blend 导出）、可选本地回环 Live Bridge 插件、8 套场景模板与 HDRI/3D 模型自动装配、16 个 DSH_KIT 建模与 PBR 函数、QC-3D 自动体检、4 阶段流水线、脚本快照回滚、可选 Poly Haven CC0 检索与 13 套主题 / 8 套字体。",
@@ -21131,9 +24355,10 @@
           "3D建模",
           "渲染"
         ],
-        "sortKeys": {
-          "github_stars": 0
-        }
+        "category": "modeling",
+        "labels": [
+          "local"
+        ]
       },
       "versions": [
         {
@@ -21235,9 +24460,10 @@
           "dxf",
           "svg"
         ],
-        "sortKeys": {
-          "github_stars": 47
-        }
+        "category": "modeling",
+        "labels": [
+          "local"
+        ]
       },
       "versions": [
         {
@@ -21534,9 +24760,8 @@
           "dsh-bundle",
           "plugin"
         ],
-        "sortKeys": {
-          "github_stars": 1
-        }
+        "category": "modeling",
+        "labels": []
       },
       "versions": [
         {
@@ -21603,9 +24828,8 @@
         }
       ],
       "metadata": {
-        "sortKeys": {
-          "github_stars": 3
-        }
+        "category": "modeling",
+        "labels": []
       }
     },
     {
@@ -21625,9 +24849,8 @@
           "plugin",
           "ui"
         ],
-        "sortKeys": {
-          "github_stars": 1049
-        }
+        "category": "modeling",
+        "labels": []
       },
       "versions": [
         {
@@ -21941,9 +25164,8 @@
           "cordis",
           "react"
         ],
-        "sortKeys": {
-          "github_stars": 6690
-        }
+        "category": "fun",
+        "labels": []
       },
       "versions": [
         {
@@ -22459,9 +25681,8 @@
           "balance",
           "widget"
         ],
-        "sortKeys": {
-          "github_stars": 7463
-        }
+        "category": "fun",
+        "labels": []
       },
       "versions": [
         {
@@ -22756,9 +25977,8 @@
           "task",
           "status-card"
         ],
-        "sortKeys": {
-          "github_stars": 77
-        }
+        "category": "fun",
+        "labels": []
       },
       "versions": [
         {
@@ -23219,9 +26439,8 @@
           "emoticon",
           "sticker"
         ],
-        "sortKeys": {
-          "github_stars": 605
-        }
+        "category": "fun",
+        "labels": []
       },
       "versions": [
         {
@@ -23242,8 +26461,8 @@
         "zh": "Claude Code 风格"
       },
       "description": {
-        "en": "Claude Code Desktop theme for the DeepSeek Harness web GUI — ivory and warm-black canvases, the clay accent, a Claude-style model picker, permission segments and an account drawer.",
-        "zh": "为 DeepSeek Harness 网页界面复刻 Claude Code Desktop 的主题插件——象牙白与暖黑双画布、陶烬橙强调色、Claude 风格模型选择器、权限分段与账户抽屉。"
+        "en": "Brings the Claude Code Desktop look and interaction to DeepSeek Harness — warm light and dark palettes, model picker, permission modes, usage statistics and account drawer.",
+        "zh": "为 DeepSeek Harness 网页界面复刻 Claude Code Desktop 的视觉与交互体验，涵盖暖色与深色主题、模型选择器、权限切换、统计栏与账户抽屉。"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNDguMDkgMTQ4LjE4Jz48ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtNzUuOTYsLTIyMy41MyknPjxwYXRoIGZpbGw9JyNEOTc3NTcnIGQ9J20gMTA1LjAxLDMyMi4wNyAyOS4xNCwtMTYuMzUgMC40OSwtMS40MiAtMC40OSwtMC43OSBoIC0xLjQyIGwgLTQuODcsLTAuMyAtMTYuNjUsLTAuNDUgLTE0LjQ0LC0wLjYgLTEzLjk5LC0wLjc1IC0zLjUyLC0wLjc1IC0zLjMsLTQuMzUgMC4zNCwtMi4xNyAyLjk2LC0xLjk5IDQuMjQsMC4zNyA5LjM3LDAuNjQgMTQuMDYsMC45NyAxMC4yLDAuNiAxNS4xMSwxLjU3IGggMi40IGwgMC4zNCwtMC45NyAtMC44MiwtMC42IC0wLjY0LC0wLjYgLTE0LjU1LC05Ljg2IC0xNS43NSwtMTAuNDIgLTguMjUsLTYgLTQuNDYsLTMuMDQgLTIuMjUsLTIuODUgLTAuOTcsLTYuMjIgNC4wNSwtNC40NiA1LjQ0LDAuMzcgMS4zOSwwLjM3IDUuNTEsNC4yNCAxMS43Nyw5LjExIDE1LjM3LDExLjMyIDIuMjUsMS44NyAwLjksLTAuNjQgMC4xMSwtMC40NSAtMS4wMSwtMS42OSAtOC4zNiwtMTUuMTEgLTguOTIsLTE1LjM3IC0zLjk3LC02LjM3IC0xLjA1LC0zLjgyIGMgLTAuMzcsLTEuNTcgLTAuNjQsLTIuODkgLTAuNjQsLTQuNSBsIDQuNjEsLTYuMjYgMi41NSwtMC44MiA2LjE1LDAuODIgMi41OSwyLjI1IDMuODIsOC43NCA2LjE5LDEzLjc2IDkuNiwxOC43MSAyLjgxLDUuNTUgMS41LDUuMTQgMC41NiwxLjU3IGggMC45NyB2IC0wLjkgbCAwLjc5LC0xMC41NCAxLjQ2LC0xMi45NCAxLjQyLC0xNi42NSAwLjQ5LC00LjY5IDIuMzIsLTUuNjIgNC42MSwtMy4wNCAzLjYsMS43MiAyLjk2LDQuMjQgLTAuNDEsMi43NCAtMS43NiwxMS40NCAtMy40NSwxNy45MiAtMi4yNSwxMiBoIDEuMzEgbCAxLjUsLTEuNSA2LjA3LC04LjA2IDEwLjIsLTEyLjc1IDQuNSwtNS4wNiA1LjI1LC01LjU5IDMuMzcsLTIuNjYgaCA2LjM3IGwgNC42OSw2Ljk3IC0yLjEsNy4yIC02LjU2LDguMzIgLTUuNDQsNy4wNSAtNy44LDEwLjUgLTQuODcsOC40IDAuNDUsMC42NyAxLjE2LC0wLjExIDE3LjYyLC0zLjc1IDkuNTIsLTEuNzIgMTEuMzYsLTEuOTUgNS4xNCwyLjQgMC41NiwyLjQ0IC0yLjAyLDQuOTkgLTEyLjE1LDMgLTE0LjI1LDIuODUgLTIxLjIyLDUuMDIgLTAuMjYsMC4xOSAwLjMsMC4zNyA5LjU2LDAuOSA0LjA5LDAuMjIgaCAxMC4wMSBsIDE4LjY0LDEuMzkgNC44NywzLjIyIDIuOTIsMy45NCAtMC40OSwzIC03LjUsMy44MiAtMTAuMTIsLTIuNCAtMjMuNjIsLTUuNjIgLTguMSwtMi4wMiBoIC0xLjEyIHYgMC42NyBsIDYuNzUsNi42IDEyLjM3LDExLjE3IDE1LjQ5LDE0LjQgMC43OSwzLjU2IC0xLjk5LDIuODEgLTIuMSwtMC4zIC0xMy42MSwtMTAuMjQgLTUuMjUsLTQuNjEgLTExLjg5LC0xMC4wMSBoIC0wLjc5IHYgMS4wNSBsIDIuNzQsNC4wMSAxNC40NywyMS43NSAwLjc1LDYuNjcgLTEuMDUsMi4xNyAtMy43NSwxLjMxIC00LjEyLC0wLjc1IC04LjQ3LC0xMS44OSAtOC43NCwtMTMuMzkgLTcuMDUsLTEyIC0wLjg2LDAuNDkgLTQuMTYsNDQuODEgLTEuOTUsMi4yOSAtNC41LDEuNzIgLTMuNzUsLTIuODUgLTEuOTksLTQuNjEgMS45OSwtOS4xMSAyLjQsLTExLjg5IDEuOTUsLTkuNDUgMS43NiwtMTEuNzQgMS4wNSwtMy45IC0wLjA3LC0wLjI2IC0wLjg2LDAuMTEgLTguODUsMTIuMTUgLTEzLjQ2LDE4LjE5IC0xMC42NSwxMS40IC0yLjU1LDEuMDEgLTQuNDIsLTIuMjkgMC40MSwtNC4wOSAyLjQ3LC0zLjY0IDE0Ljc0LC0xOC43NSA4Ljg5LC0xMS42MiA1Ljc0LC02LjcxIC0wLjA0LC0wLjk3IGggLTAuMzQgbCAtMzkuMTUsMjUuNDIgLTYuOTcsMC45IC0zLC0yLjgxIDAuMzcsLTQuNjEgMS40MiwtMS41IDExLjc3LC04LjEgLTAuMDQsMC4wNCB6Jy8+PC9nPjwvc3ZnPgo=",
       "author": "Nwflower",
@@ -23265,11 +26484,22 @@
           "anthropic",
           "editorial"
         ],
-        "sortKeys": {
-          "github_stars": 702
-        }
+        "category": "fun",
+        "labels": []
       },
       "versions": [
+        {
+          "version": "0.22.2",
+          "publishTimestamp": 1795545684,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Nwflower/dsh-claude-style",
+            "commit": "010940463265d602080caeeb28a464db33296e81"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
+        },
         {
           "version": "0.22.1",
           "publishTimestamp": 1795457187,

@@ -63,6 +63,26 @@ dsh-draw
 dsh-draw-mode
 dsh-image-gen
 
+# Token 优化：直接减少消耗
+dsh-boost
+dsh-context-compression-improved
+dsh-context-fold
+dsh-live-compact
+dsh-compaction-weave
+billion-context-dsh
+dsh-compact-manager
+dsh-compact-suite
+dsh-compact-arsenal
+dsh-context-redline
+dsh-context-compression-selector
+https://github.com/Shaw529/dsh-token-saver
+
+# Token 优化：用量统计与预算
+dsh-token-manager
+dsh-billing-stats
+dsh-usage-stats
+dsh-auto-memory
+
 # 3D 与建模
 https://github.com/STARDUSTLC666/dsh-blender-studio
 https://github.com/LAU-MARS/dsh-cad

@@ -5,7 +5,11 @@ on:
     branches: [main, master]
     paths:
       - plugins.txt
+      - categories.json
+      - package.json
       - scripts/build.sh
+      - scripts/apply-market-metadata.mjs
+      - scripts/apply-market-metadata.test.mjs
       - .github/workflows/build-market.yml
   schedule:
     - cron: "17 3 * * *"
@@ -36,6 +40,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bash scripts/build.sh
+      - name: Test market metadata
+        run: node --test scripts/*.test.mjs
       - name: Commit generated index
         run: |
           git config user.name "github-actions[bot]"

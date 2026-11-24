@@ -22,9 +22,33 @@ https://sinyookkkk.github.io/dsh-plugin-market/index.json
 
 ---
 
+## 分类与标签
+
+索引现在带 9 个分类和 6 个标签，DSH「发现」页会显示分类 pills 和 Labels 菜单：
+
+| 分类 | 内容 |
+|---|---|
+| 必备基础 | 上下文压缩、费用统计、上下文仪表盘 |
+| 能力增强 | 视觉、搜索、记忆、文件引用、安全、工具目录 |
+| 界面效率 | 侧边栏、Web 全家桶、PPT、对话分支 |
+| 开发工作流 | LSP、Git、代码审查、TDD、OpenSpec/Superpowers、VSCode 模式 |
+| Token 优化 | 上下文压缩、工具结果折叠、用量统计与预算 |
+| 绘图设计 | 草图、白板、drawio、Mermaid、Excalidraw、文生图 |
+| 3D 建模 | Blender、CAD、USD 预览、分子查看、GenUI |
+| 趣味美化 | 宠物、余额挂件、表情包、主题、PUA |
+| 其他 | 经显式登记的少数插件 |
+
+标签：`视觉`、`搜索`、`记忆`、`节省消耗`、`用量统计`、`需本机环境`。
+
+维护方式：新增或移除 `plugins.txt` 里的来源后，同步修改根目录的 `categories.json`。
+索引中的每个插件都必须有显式分类，缺失会让构建失败并列出包名；使用「其他」的插件必须列在
+`otherAllow` 里。构建会打印每个分类的插件数量。分类和标签只改索引，不需要发新版 DSH。
+
+---
+
 ## 商店收录了哪些 plugin
 
-目前共 **56 个**。名称就是 DSH 里可以搜索的关键字。
+目前共 **72 个**。名称就是 DSH 里可以搜索的关键字。
 
 ### 必装与实用
 
@@ -91,6 +115,34 @@ https://sinyookkkk.github.io/dsh-plugin-market/index.json
 | `@ljwei-stak/dsh-model-route-bot` | 模型路由与官方工具 bot 工作区 |
 | `@michengai/dsh-skills-manager` | 统一加载与管理本机 Agent Skills |
 | `@tencent-connect/dsh-qqbot` | 在 QQ 私聊/群聊里对话 DSH |
+
+### Token 优化
+
+**直接省 token**（注意：压缩/折叠类插件会接管同一套上下文逻辑，建议一次只启用一个）：
+
+| 插件 | 作用 |
+|---|---|
+| `dsh-boost` | 把工具回执投影成精简版，并用确定性的只读调用替代大模型调用 |
+| `dsh-context-compression-improved` | 每轮工具结果都更少 token，且全程可审计 |
+| `dsh-context-fold` | 阶段结束时把已完成的工具结果折叠成结论，只留少量指针 |
+| `dsh-live-compact` | 任务运行中就地压缩最近一轮，边跑边省，354 star |
+| `dsh-compaction-weave` | 缓存友好的增量摘要，保留要求与进度，支持历史回查和失败重试 |
+| `billion-context-dsh` | 主动上下文剪枝（ACP），模型驱动管理上下文，171 star |
+| `dsh-compact-manager` | 手动/自动压缩均可切到「机械折页」，速度快且不消耗 token |
+| `dsh-compact-suite` | 本地部署压缩控制面：一键压缩、摘要改走小模型省 prefill |
+| `dsh-compact-arsenal` | 可配置的上下文压缩，三段独立控制 |
+| `dsh-context-redline` | 发送前审阅、编辑或删掉模型将收到的上下文 |
+| `dsh-context-compression-selector` | 一次装好压缩选择器，按需切换压缩策略 |
+| `dsh-token-saver` | 在不影响任务质量的前提下做激进 token 优化 |
+
+**统计花费与预算**（不直接省 token，但能看清花在哪）：
+
+| 插件 | 作用 |
+|---|---|
+| `dsh-token-manager` | Token 成本监控、模型调用效率分析与上下文优化 |
+| `dsh-billing-stats` | 只读的按轮次/会话账单统计 |
+| `dsh-usage-stats` | token 趋势、活跃热力图、模型占比 |
+| `dsh-auto-memory` | 可审计的自动记忆，减少重复上下文注入，207 star |
 
 ### 绘图与草图
 
