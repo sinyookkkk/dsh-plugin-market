@@ -141,7 +141,7 @@
           "pi-package"
         ],
         "sortKeys": {
-          "github_stars": 8394
+          "github_stars": 8482
         },
         "category": "essentials",
         "labels": []
@@ -1054,12 +1054,24 @@
           "language"
         ],
         "sortKeys": {
-          "github_stars": 758
+          "github_stars": 757
         },
         "category": "essentials",
         "labels": []
       },
       "versions": [
+        {
+          "version": "1.9.93",
+          "publishTimestamp": 1795671794,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Han-1413141/dsh-cost-meter",
+            "commit": "993d2e17340f0cf392ede481a8ced85d15dedd64"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
         {
           "version": "1.9.92",
           "publishTimestamp": 1795597873,
@@ -3787,14 +3799,14 @@
         "zh": "上下文 (dsh-context)"
       },
       "description": {
-        "en": "Context insights and management, with dashboard, browser, dynamics and commands, for understanding how the context composites, and how it evolves.",
-        "de": "Kontext-Einblicke und -Verwaltung mit Dashboard, Browser, Dynamik und Befehlen, um den Aufbau des Kontexts und seine Entwicklung zu verstehen.",
-        "es": "Análisis y gestión del contexto, con panel, explorador, evolución y comandos, para comprender cómo se compone el contexto y cómo evoluciona.",
-        "fr": "Analyse et gestion du contexte, avec tableau de bord, navigateur, dynamique et commandes, pour comprendre comment le contexte se compose et évolue.",
-        "ja": "コンテキストの可視化・管理プラグイン：セッション横断のコンテキストダッシュボード、コンテキストブラウザー、コンテキストの変化、/context コマンドで、構成と変遷を把握。",
-        "pt": "Insights e gerenciamento de contexto, com painel, navegador, dinâmica e comandos, para entender como o contexto é composto e como evolui.",
-        "ru": "Обзор и управление контекстом: панель, обозреватель, динамика и команды, чтобы понимать состав контекста и его развитие.",
-        "zh": "上下文洞察与管理插件：提供跨会话的上下文仪表盘、上下文浏览器、上下文动态、/context 命令，看清上下文的构成与演变。"
+        "en": "DeepSeek Harness officially recommended context insight and management plugin provides a context browser, context trends, a multi-agent collaboration view, key context event insights, cross-session statistics, and tool call and command activity, giving you a complete picture of context composition, token usage, and evolution.",
+        "de": "Offiziell von DeepSeek Harness empfohlenes Plugin für Kontext-Einblicke und -Verwaltung: Kontext-Browser, Kontexttrends, Ansicht der Multi-Agenten-Zusammenarbeit, Analysen wichtiger Kontextereignisse, sitzungsübergreifende Statistiken sowie Aktivitäten von Tool-Aufrufen und Befehlen, für einen vollständigen Überblick über Kontextaufbau, Token-Nutzung und die Entwicklung des Kontexts.",
+        "es": "Plugin de análisis y gestión del contexto recomendado oficialmente por DeepSeek Harness: ofrece un explorador de contexto, tendencias del contexto, una vista de colaboración multiagente, análisis de eventos clave del contexto, estadísticas entre sesiones y actividad de llamadas a herramientas y comandos, para comprender por completo la composición del contexto, el uso de tokens y su evolución.",
+        "fr": "Plugin d’analyse et de gestion du contexte officiellement recommandé par DeepSeek Harness : il propose un explorateur de contexte, des tendances du contexte, une vue de collaboration multi-agents, une analyse des événements clés du contexte, des statistiques entre sessions et le suivi des appels d’outils et des commandes, pour comprendre pleinement la composition du contexte, l’utilisation des tokens et l’évolution du contexte.",
+        "ja": "DeepSeek Harness公式推奨のコンテキスト把握・管理プラグイン：コンテキストブラウザー、コンテキストの推移、マルチエージェント連携ビュー、重要なコンテキストイベントの詳細分析、セッション横断統計、ツール呼び出しとコマンドの動向を提供し、コンテキストの構成、トークン使用量、変遷を包括的に把握できます。",
+        "pt": "Plugin de insights e gerenciamento de contexto oficialmente recomendado pelo DeepSeek Harness: oferece navegador de contexto, tendências de contexto, visualização da colaboração multiagente, análise de eventos importantes do contexto, estatísticas entre sessões e atividade de chamadas de ferramentas e comandos, para compreender completamente a composição do contexto, o uso de tokens e a evolução do contexto.",
+        "ru": "Официально рекомендуемый DeepSeek Harness плагин для анализа и управления контекстом: обозреватель контекста, тенденции контекста, представление взаимодействия агентов, анализ ключевых событий контекста, статистика по всем сессиям, а также динамика вызовов инструментов и команд — полное понимание состава контекста, использования токенов и его развития.",
+        "zh": "DeepSeek Harness官方推荐的上下文洞察与管理插件：提供上下文浏览器、上下文趋势、多Agent协作视图、关键上下文事件透视、跨会话统计，以及工具调用与命令动态，全面掌握上下文构成、Token使用与演变。"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPgogIDxwYXRoIGQ9Ik04OTkuOTg0IDE5Ljg3M2gtMy40NTJjLTI2LjEyMyAwLTQ3LjI5NiAyMS4xNzItNDcuMjk2IDQ3LjI5NnY4ODguNTA4YzAgMjYuMTI3IDIxLjE3MyA0Ny4yOTggNDcuMjk2IDQ3LjI5OGgzLjQ1MmMyNi4xMTkgMCA0Ny4yOTctMjEuMTcxIDQ3LjI5Ny00Ny4yOThWNjcuMTY5YzAtMjYuMTI0LTIxLjE3Ny00Ny4yOTYtNDcuMjk3LTQ3LjI5NnoiIGZpbGw9IiM0QTU2OTkiLz4KICA8cGF0aCBkPSJNMTMyLjY0MyAxOS44NzNoLTMuNDQ5Yy0yNi4xMiAwLTQ3LjI5NiAyMS4xNzItNDcuMjk2IDQ3LjI5NnY4ODguNTA4YzAgMjYuMTI3IDIxLjE3NyA0Ny4yOTggNDcuMjk2IDQ3LjI5OGgzLjQ0OWMyNi4xMjMgMCA0Ny4yOTktMjEuMTcxIDQ3LjI5OS00Ny4yOThWNjcuMTY5YzAtMjYuMTI0LTIxLjE3Ni00Ny4yOTYtNDcuMjk5LTQ3LjI5NnoiIGZpbGw9IiNDNDVGQTAiLz4KICA8cGF0aCBkPSJNODk5LjQ2MyAxOS44NzNIMTI5LjE5NGMtMjYuMTIgMC00Ny4yOTYgMjEuMTcyLTQ3LjI5NiA0Ny4yOTZ2My4zNzdjMCAyNi4xMiAyMS4xNzcgNDcuMjk5IDQ3LjI5NiA0Ny4yOTloNzcwLjI2OWMyNi4xMjMgMCA0Ny4yOTYtMjEuMTc5IDQ3LjI5Ni00Ny4yOTl2LTMuMzc3YzAtMjYuMTI0LTIxLjE3My00Ny4yOTYtNDcuMjk2LTQ3LjI5NnoiIGZpbGw9IiM2Mjc3QkEiLz4KICA8cGF0aCBkPSJNODk5LjQ2MyA5MDUuMDA2SDEyOS4xOTRjLTI2LjEyIDAtNDcuMjk2IDIxLjE3LTQ3LjI5NiA0Ny4yOXYzLjM4MWMwIDI2LjEyNyAyMS4xNzcgNDcuMjk4IDQ3LjI5NiA0Ny4yOThoNzcwLjI2OWMyNi4xMjMgMCA0Ny4yOTYtMjEuMTcxIDQ3LjI5Ni00Ny4yOTh2LTMuMzgxYzAtMjYuMTItMjEuMTczLTQ3LjI5LTQ3LjI5Ni00Ny4yOXoiIGZpbGw9IiNDNDVGQTAiLz4KICA8cGF0aCBkPSJNNzE3Ljk2MiA1NDMuMTUzSDU0Mi4wNDdjLTI2LjEyMSAwLTQ3LjI5OCAyMS4xNzUtNDcuMjk4IDQ3LjI5N3YzLjcyNGMwIDI2LjEyMyAyMS4xNzcgNDcuMjkzIDQ3LjI5OCA0Ny4yOTNoMTc1LjkxNWMyNi4xMjEgMCA0Ny4yOTctMjEuMTcgNDcuMjk3LTQ3LjI5M3YtMy43MjRjMC0yNi4xMjItMjEuMTc2LTQ3LjI5Ny00Ny4yOTctNDcuMjk3eiIgZmlsbD0iI0U1NTk0RiIvPgogIDxwYXRoIGQ9Ik02ODkuMjY4IDE5OC44NDlINTEzLjM1NWMtMjYuMTIyIDAtNDcuMjk4IDIxLjE3NS00Ny4yOTggNDcuMjk3djMuNzIyYzAgMjYuMTIgMjEuMTc2IDQ3LjI5NyA0Ny4yOTggNDcuMjk3aDE3NS45MTJjMjYuMTIyIDAgNDcuMjk4LTIxLjE3NyA0Ny4yOTgtNDcuMjk3di0zLjcyMmMwLTI2LjEyMi0yMS4xNzUtNDcuMjk3LTQ3LjI5Ny00Ny4yOTd6IiBmaWxsPSIjRjBEMDQzIi8+CiAgPHBhdGggZD0iTTc1Ny43ODkgMzUzLjA4MUgyNjEuMTdjLTI2LjEyMSAwLTQ3LjI5NyAyMS4xNzItNDcuMjk3IDQ3LjI5NnYzLjM3N2MwIDI2LjEyMSAyMS4xNzcgNDcuMjk5IDQ3LjI5NyA0Ny4yOTloNDk2LjYxOWMyNi4xMjEgMCA0Ny4yOTYtMjEuMTc4IDQ3LjI5Ni00Ny4yOTl2LTMuMzc3YzAtMjYuMTI1LTIxLjE3NS00Ny4yOTYtNDcuMjk2LTQ3LjI5NnoiIGZpbGw9IiNFNTU5NEYiLz4KICA8cGF0aCBkPSJNNzYyLjYzOCA3MjYuMjI1aC00OTYuNjJjLTI2LjEyIDAtNDcuMjk0IDIxLjE4LTQ3LjI5NCA0Ny4zMDF2My4zNzdjMCAyNi4xMiAyMS4xNzQgNDcuMyA0Ny4yOTQgNDcuM2g0OTYuNjJjMjYuMTIyIDAgNDcuMjk2LTIxLjE4IDQ3LjI5Ni00Ny4zdi0zLjM3N2MwLTI2LjEyMi0yMS4xNzQtNDcuMzAxLTQ3LjI5Ni00Ny4zMDF6IiBmaWxsPSIjNjI3N0JBIi8+CiAgPHBhdGggZD0iTTM1NS43MzQgNTQzLjMyOEgyODEuNDFjLTI2LjEyMiAwLTQ3LjI5NyAyMS4xNy00Ny4yOTcgNDcuMjkzdjMuMzc4YzAgMjYuMTE4IDIxLjE3NSA0Ny4yOTcgNDcuMjk3IDQ3LjI5N2g3NC4zMjRjMjYuMTIzIDAgNDcuMjk2LTIxLjE3OSA0Ny4yOTYtNDcuMjk3di0zLjM3OGMwLTI2LjEyMy0yMS4xNzQtNDcuMjkzLTQ3LjI5Ni00Ny4yOTN6IiBmaWxsPSIjRjM5QTJCIi8+CiAgPHBhdGggZD0iTTMzNC44NSAyNDguMDA2bS00OC45ODYgMGE0OC45ODYgNDguOTg2IDAgMSAwIDk3Ljk3MiAwIDQ4Ljk4NiA0OC45ODYgMCAxIDAtOTcuOTcyIDBaIiBmaWxsPSIjRjM5QTJCIi8+Cjwvc3ZnPgo=",
       "author": "bowenliang123",
@@ -3813,12 +3825,24 @@
           "ui"
         ],
         "sortKeys": {
-          "github_stars": 5499
+          "github_stars": 5528
         },
         "category": "essentials",
         "labels": []
       },
       "versions": [
+        {
+          "version": "0.87.2",
+          "publishTimestamp": 1795662554,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/bowenliang123/dsh-context",
+            "commit": "cfec4e4f9a13fc506cbf7a455a69b1d7cf52b03e"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        },
         {
           "version": "0.87.1",
           "publishTimestamp": 1795371192,
@@ -5821,7 +5845,7 @@
           "modlens"
         ],
         "sortKeys": {
-          "github_stars": 5079
+          "github_stars": 5090
         },
         "category": "capabilities",
         "labels": [
@@ -6394,7 +6418,7 @@
           "plugin"
         ],
         "sortKeys": {
-          "github_stars": 1301
+          "github_stars": 1304
         },
         "category": "capabilities",
         "labels": [
@@ -7626,8 +7650,8 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 63319,
-          "npm_weekly_downloads": 27097
+          "github_stars": 63580,
+          "npm_weekly_downloads": 26498
         },
         "category": "capabilities",
         "labels": [
@@ -7852,7 +7876,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 576
+          "github_stars": 575
         },
         "category": "capabilities",
         "labels": []
@@ -7886,7 +7910,7 @@
           "security"
         ],
         "sortKeys": {
-          "github_stars": 2101
+          "github_stars": 2105
         },
         "category": "capabilities",
         "labels": []
@@ -8296,6 +8320,18 @@
         "url": "https://github.com/omdsh-dev/DSH-better-sidebar"
       },
       "versions": [
+        {
+          "version": "0.34.0-alpha.0",
+          "publishTimestamp": 1795674421,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
+            "commit": "060f735a45e3dbe9997488f6bdc79892de76fe41"
+          },
+          "engines": {
+            "dsh": ">=0.2.3-alpha.2 <0.3.0"
+          }
+        },
         {
           "version": "0.33.0",
           "publishTimestamp": 1795502227,
@@ -8767,7 +8803,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 5323
+          "github_stars": 5345
         },
         "category": "interface",
         "labels": []
@@ -9161,8 +9197,8 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 10637,
-          "npm_weekly_downloads": 14685
+          "github_stars": 10651,
+          "npm_weekly_downloads": 14037
         },
         "category": "interface",
         "labels": []
@@ -9185,7 +9221,7 @@
           "architecture-diagram"
         ],
         "sortKeys": {
-          "github_stars": 99770
+          "github_stars": 100280
         },
         "category": "graphics",
         "labels": []
@@ -9193,11 +9229,11 @@
       "versions": [
         {
           "version": "1.2.0",
-          "publishTimestamp": 1795532965,
+          "publishTimestamp": 1795657145,
           "source": {
             "type": "git",
             "url": "https://github.com/tt-a1i/archify",
-            "commit": "62f3a995eb26ee23f784bdea4a7992340078e9be",
+            "commit": "d6b0f71f25a3337ed2fcd09c973cacf67be7baba",
             "path": "integrations/deepseek-harness"
           }
         }
@@ -9232,12 +9268,24 @@
           "幻灯片"
         ],
         "sortKeys": {
-          "github_stars": 46
+          "github_stars": 50
         },
         "category": "interface",
         "labels": []
       },
       "versions": [
+        {
+          "version": "1.0.5",
+          "publishTimestamp": 1795622610,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/STARDUSTLC666/dsh-ppt",
+            "commit": "24339f9a92f00a30e26025c2f5d3fe794529e984"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
+        },
         {
           "version": "1.0.4",
           "publishTimestamp": 1795542096,
@@ -9821,7 +9869,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 750
+          "github_stars": 754
         },
         "category": "interface",
         "labels": []
@@ -9848,7 +9896,7 @@
         ],
         "sortKeys": {
           "github_stars": 0,
-          "npm_weekly_downloads": 306
+          "npm_weekly_downloads": 293
         },
         "category": "development",
         "labels": []
@@ -9990,7 +10038,7 @@
           "superpowers"
         ],
         "sortKeys": {
-          "github_stars": 173
+          "github_stars": 174
         },
         "category": "development",
         "labels": []
@@ -10250,7 +10298,7 @@
       "metadata": {
         "sortKeys": {
           "github_stars": 0,
-          "npm_weekly_downloads": 493
+          "npm_weekly_downloads": 490
         },
         "category": "development",
         "labels": []
@@ -12263,7 +12311,7 @@
           "superpowers"
         ],
         "sortKeys": {
-          "github_stars": 17
+          "github_stars": 18
         },
         "category": "development",
         "labels": []
@@ -12391,6 +12439,42 @@
         "labels": []
       },
       "versions": [
+        {
+          "version": "0.43.0",
+          "publishTimestamp": 1795678892,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Lenonss/DSH_VsCodeMode",
+            "commit": "3f5ca848de34d04aaa16b15afd3177fbd1df6748"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.41.0",
+          "publishTimestamp": 1795664330,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Lenonss/DSH_VsCodeMode",
+            "commit": "a3364e89f55fe837b5adcf41cf5ee3035a636db7"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.40.0",
+          "publishTimestamp": 1795660020,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Lenonss/DSH_VsCodeMode",
+            "commit": "64de5b4bfb79f43d23496c03daa7f4e9a8455714"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.1 <0.3.0-0"
+          }
+        },
         {
           "version": "0.39.0",
           "publishTimestamp": 1795602822,
@@ -14106,7 +14190,7 @@
           "unrestricted"
         ],
         "sortKeys": {
-          "github_stars": 12544
+          "github_stars": 12823
         },
         "category": "development",
         "labels": []
@@ -15269,19 +15353,19 @@
           "scraping"
         ],
         "sortKeys": {
-          "github_stars": 8886
+          "github_stars": 9339
         },
         "category": "capabilities",
         "labels": []
       },
       "versions": [
         {
-          "version": "0.32.0",
-          "publishTimestamp": 1795608789,
+          "version": "0.33.0",
+          "publishTimestamp": 1795692554,
           "source": {
             "type": "git",
             "url": "https://github.com/superdesigndev/treg",
-            "commit": "ef84113b7ce9905d56b3619cf86f1bdd6f005a77"
+            "commit": "6e6b6fe1e9f3d77cc5831bc3add9240337a8514b"
           }
         },
         {
@@ -15321,7 +15405,7 @@
           "agent-skill"
         ],
         "sortKeys": {
-          "github_stars": 39013
+          "github_stars": 39071
         },
         "category": "other",
         "labels": []
@@ -15381,7 +15465,7 @@
           "background"
         ],
         "sortKeys": {
-          "github_stars": 8139
+          "github_stars": 8213
         },
         "category": "fun",
         "labels": [
@@ -15594,7 +15678,7 @@
           "repository-tools"
         ],
         "sortKeys": {
-          "github_stars": 6017
+          "github_stars": 6024
         },
         "category": "capabilities",
         "labels": []
@@ -15851,7 +15935,7 @@
           "llm"
         ],
         "sortKeys": {
-          "github_stars": 3093
+          "github_stars": 3109
         },
         "category": "development",
         "labels": []
@@ -16363,8 +16447,8 @@
           "supermemory"
         ],
         "sortKeys": {
-          "github_stars": 1127,
-          "npm_weekly_downloads": 43936
+          "github_stars": 1131,
+          "npm_weekly_downloads": 42399
         },
         "category": "capabilities",
         "labels": [
@@ -17348,7 +17432,7 @@
           "deepseek-harness"
         ],
         "sortKeys": {
-          "github_stars": 1039
+          "github_stars": 1045
         },
         "category": "capabilities",
         "labels": [
@@ -17356,6 +17440,15 @@
         ]
       },
       "versions": [
+        {
+          "version": "5.10.17",
+          "publishTimestamp": 1795632470,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/liustack/modsearch",
+            "commit": "0409e15e02d980a2860532c5472b7ccd0aa6c488"
+          }
+        },
         {
           "version": "5.10.16",
           "publishTimestamp": 1795552410,
@@ -18052,7 +18145,7 @@
       "metadata": {
         "sortKeys": {
           "github_stars": 1020,
-          "npm_weekly_downloads": 3369
+          "npm_weekly_downloads": 3077
         },
         "category": "capabilities",
         "labels": []
@@ -18099,7 +18192,7 @@
           "cordis"
         ],
         "sortKeys": {
-          "github_stars": 609
+          "github_stars": 613
         },
         "category": "development",
         "labels": []
@@ -19695,7 +19788,7 @@
           "im"
         ],
         "sortKeys": {
-          "github_stars": 631
+          "github_stars": 632
         },
         "category": "capabilities",
         "labels": []
@@ -19825,7 +19918,7 @@
         ],
         "sortKeys": {
           "github_stars": 0,
-          "npm_weekly_downloads": 25
+          "npm_weekly_downloads": 28
         },
         "category": "graphics",
         "labels": []
@@ -19866,7 +19959,7 @@
         ],
         "sortKeys": {
           "github_stars": 3,
-          "npm_weekly_downloads": 422
+          "npm_weekly_downloads": 402
         },
         "category": "graphics",
         "labels": []
@@ -19924,8 +20017,8 @@
           "canvas"
         ],
         "sortKeys": {
-          "github_stars": 876,
-          "npm_weekly_downloads": 6433
+          "github_stars": 889,
+          "npm_weekly_downloads": 6195
         },
         "category": "graphics",
         "labels": []
@@ -20206,8 +20299,8 @@
           "web-ui"
         ],
         "sortKeys": {
-          "github_stars": 21,
-          "npm_weekly_downloads": 534
+          "github_stars": 22,
+          "npm_weekly_downloads": 553
         },
         "category": "graphics",
         "labels": []
@@ -20363,7 +20456,7 @@
         ],
         "sortKeys": {
           "github_stars": 23,
-          "npm_weekly_downloads": 3153
+          "npm_weekly_downloads": 3101
         },
         "category": "graphics",
         "labels": []
@@ -20493,7 +20586,7 @@
           "cordis"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 36
+          "npm_weekly_downloads": 40
         },
         "category": "graphics",
         "labels": []
@@ -20571,7 +20664,7 @@
       "metadata": {
         "sortKeys": {
           "github_stars": 1,
-          "npm_weekly_downloads": 1171
+          "npm_weekly_downloads": 1225
         },
         "category": "graphics",
         "labels": []
@@ -20601,12 +20694,22 @@
         ],
         "sortKeys": {
           "github_stars": 15,
-          "npm_weekly_downloads": 1369
+          "npm_weekly_downloads": 1301
         },
         "category": "graphics",
         "labels": []
       },
       "versions": [
+        {
+          "version": "0.2.30",
+          "publishTimestamp": 1795666613,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-0 <0.4.0-0"
+          }
+        },
         {
           "version": "0.2.29",
           "publishTimestamp": 1795517855,
@@ -20940,7 +21043,7 @@
         ],
         "sortKeys": {
           "github_stars": 0,
-          "npm_weekly_downloads": 343
+          "npm_weekly_downloads": 325
         },
         "category": "graphics",
         "labels": [
@@ -21018,8 +21121,8 @@
           "cordis"
         ],
         "sortKeys": {
-          "github_stars": 1752,
-          "npm_weekly_downloads": 22970
+          "github_stars": 1769,
+          "npm_weekly_downloads": 23079
         },
         "category": "graphics",
         "labels": []
@@ -21456,7 +21559,7 @@
         ],
         "sortKeys": {
           "github_stars": 1,
-          "npm_weekly_downloads": 5363
+          "npm_weekly_downloads": 5715
         },
         "category": "token",
         "labels": [
@@ -21464,6 +21567,26 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.4.6",
+          "publishTimestamp": 1795653387,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.4.5",
+          "publishTimestamp": 1795629405,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+          }
+        },
         {
           "version": "0.4.4",
           "publishTimestamp": 1795511836,
@@ -21798,11 +21921,74 @@
     },
     {
       "name": "dsh-context-compression-improved",
-      "title": "dsh-context-compression-improved",
+      "title": {
+        "en": "Context compression selector",
+        "de": "Selektor zur Kontextkompression",
+        "es": "Selector de compresión de contexto",
+        "fr": "Sélecteur de compression de contexte",
+        "it": "Selettore di compressione del contesto",
+        "ja": "コンテキスト圧縮セレクター",
+        "ko": "컨텍스트 압축 셀렉터",
+        "pt": "Seletor de compressão de contexto",
+        "ru": "Селектор сжатия контекста",
+        "zh": "上下文压缩选择器"
+      },
+      "description": {
+        "en": "An improved fork of dsh-context-compression-selector — an auditable tool-result context-compression selector for DeepSeek Harness — adding an orthogonal code-skeleton compression gate.",
+        "de": "Ein verbesserter Fork von dsh-context-compression-selector — ein prüfbarer Selektor zur Kontextkompression von Tool-Ergebnissen für den DeepSeek Harness — ergänzt um ein orthogonales Gate zur Komprimierung von Code-Skeletten.",
+        "es": "Un fork mejorado de dsh-context-compression-selector — un selector auditable de compresión de contexto de resultados de herramientas para DeepSeek Harness — que añade una puerta de compresión de esqueletos de código ortogonal.",
+        "fr": "Un fork amélioré de dsh-context-compression-selector — un sélecteur auditable de compression du contexte des résultats d'outils pour DeepSeek Harness — qui ajoute une porte de compression des squelettes de code orthogonale.",
+        "it": "Un fork migliorato di dsh-context-compression-selector — un selettore verificabile di compressione del contesto dei risultati degli strumenti per DeepSeek Harness — con l'aggiunta di un gate di compressione degli scheletri di codice ortogonale.",
+        "ja": "dsh-context-compression-selector の改良フォーク——DeepSeek Harness 向けの監査可能なツール結果コンテキスト圧縮セレクターに、直交するコードスケルトン圧縮ゲートを追加しました。",
+        "ko": "dsh-context-compression-selector의 개선 포크——DeepSeek Harness용 감사 가능한 도구 결과 컨텍스트 압축 셀렉터에, 직교하는 코드 스켈레톤 압축 게이트*를추가했습니다.",
+        "pt": "Fork aprimorado do dsh-context-compression-selector — um seletor auditable de compressão de contexto dos resultados de ferramentas para o DeepSeek Harness — que adiciona uma porta ortogonal de compressão de esqueletos de código.",
+        "ru": "Улучшенный форк dsh-context-compression-selector — проверяемого селектора сжатия контекста результатов инструментов для DeepSeek Harness — с добавлением ортогонального гейта сжатия скелетов кода.",
+        "zh": "dsh-context-compression-selector 的改进版 fork——面向 DeepSeek Harness 的可审计工具结果上下文压缩选择器，新增正交的代码骨架压缩门*。"
+      },
+      "author": "WilliamShi666",
+      "homepage": "https://github.com/drscrewdriver/dsh-context-compression-improved#readme",
       "repository": {
-        "url": "https://github.com/drscrewdriver/dsh-context-compression-improved"
+        "url": "https://github.com/drscrewdriver/dsh-context-compression-improved",
+        "directory": "packages/selector"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek",
+          "harness",
+          "context",
+          "compression",
+          "plugin"
+        ],
+        "sortKeys": {
+          "github_stars": 13,
+          "npm_weekly_downloads": 37095
+        },
+        "category": "token",
+        "labels": [
+          "saving"
+        ]
       },
       "versions": [
+        {
+          "version": "0.15.8",
+          "publishTimestamp": 1795614287,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.15.7",
+          "publishTimestamp": 1795613378,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+          }
+        },
         {
           "version": "0.15.6",
           "publishTimestamp": 1795596949,
@@ -22543,17 +22729,7 @@
             "dsh": ">=0.1.1-rc.2 <0.2.0-0"
           }
         }
-      ],
-      "metadata": {
-        "sortKeys": {
-          "github_stars": 13,
-          "npm_weekly_downloads": 32208
-        },
-        "category": "token",
-        "labels": [
-          "saving"
-        ]
-      }
+      ]
     },
     {
       "name": "dsh-context-fold",
@@ -22760,7 +22936,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "npm_weekly_downloads": 1084
+          "npm_weekly_downloads": 727
         },
         "category": "token",
         "labels": [
@@ -22785,8 +22961,8 @@
           "compaction"
         ],
         "sortKeys": {
-          "github_stars": 365,
-          "npm_weekly_downloads": 1719
+          "github_stars": 369,
+          "npm_weekly_downloads": 1893
         },
         "category": "token",
         "labels": [
@@ -22794,6 +22970,16 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.1.14",
+          "publishTimestamp": 1795656874,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        },
         {
           "version": "1.1.13",
           "publishTimestamp": 1795574114,
@@ -23003,8 +23189,8 @@
           "conversation-history"
         ],
         "sortKeys": {
-          "github_stars": 69,
-          "npm_weekly_downloads": 3067
+          "github_stars": 73,
+          "npm_weekly_downloads": 3310
         },
         "category": "token",
         "labels": [
@@ -23152,7 +23338,7 @@
           "compaction"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 1626
+          "npm_weekly_downloads": 1556
         },
         "category": "token",
         "labels": [
@@ -23474,7 +23660,7 @@
         ],
         "sortKeys": {
           "github_stars": 1,
-          "npm_weekly_downloads": 3632
+          "npm_weekly_downloads": 3844
         },
         "category": "token",
         "labels": [
@@ -23534,7 +23720,7 @@
         ],
         "sortKeys": {
           "github_stars": 6,
-          "npm_weekly_downloads": 435
+          "npm_weekly_downloads": 403
         },
         "category": "token",
         "labels": [
@@ -23610,7 +23796,7 @@
         ],
         "sortKeys": {
           "github_stars": 2,
-          "npm_weekly_downloads": 328
+          "npm_weekly_downloads": 425
         },
         "category": "token",
         "labels": [
@@ -23738,7 +23924,7 @@
         ],
         "sortKeys": {
           "github_stars": 0,
-          "npm_weekly_downloads": 3393
+          "npm_weekly_downloads": 3416
         },
         "category": "token",
         "labels": [
@@ -23988,7 +24174,7 @@
         ],
         "sortKeys": {
           "github_stars": 24,
-          "npm_weekly_downloads": 48
+          "npm_weekly_downloads": 60
         },
         "category": "token",
         "labels": [
@@ -24136,7 +24322,7 @@
         ],
         "sortKeys": {
           "github_stars": 0,
-          "npm_weekly_downloads": 345
+          "npm_weekly_downloads": 351
         },
         "category": "token",
         "labels": [
@@ -24180,7 +24366,7 @@
         ],
         "sortKeys": {
           "github_stars": 0,
-          "npm_weekly_downloads": 591
+          "npm_weekly_downloads": 584
         },
         "category": "token",
         "labels": [
@@ -24241,8 +24427,8 @@
           "usage-statistics"
         ],
         "sortKeys": {
-          "github_stars": 11,
-          "npm_weekly_downloads": 222
+          "github_stars": 12,
+          "npm_weekly_downloads": 201
         },
         "category": "token",
         "labels": [
@@ -24349,7 +24535,7 @@
         ],
         "sortKeys": {
           "github_stars": 137,
-          "npm_weekly_downloads": 4466
+          "npm_weekly_downloads": 4974
         },
         "category": "token",
         "labels": [
@@ -25181,7 +25367,7 @@
           "ui"
         ],
         "sortKeys": {
-          "github_stars": 1055
+          "github_stars": 1064
         },
         "category": "modeling",
         "labels": []
@@ -25499,7 +25685,7 @@
           "react"
         ],
         "sortKeys": {
-          "github_stars": 6722
+          "github_stars": 6744
         },
         "category": "fun",
         "labels": []
@@ -26019,7 +26205,7 @@
           "widget"
         ],
         "sortKeys": {
-          "github_stars": 7472
+          "github_stars": 7476
         },
         "category": "fun",
         "labels": []
@@ -26803,11 +26989,11 @@
       "versions": [
         {
           "version": "0.1.86",
-          "publishTimestamp": 1795449726,
+          "publishTimestamp": 1795685098,
           "source": {
             "type": "git",
             "url": "https://github.com/yyh-001/dsh-meme",
-            "commit": "a3533746305f52410bed26815260a8687f013f75"
+            "commit": "b80b6e6381306ec004304e823c860861460f145a"
           }
         }
       ]
@@ -26843,12 +27029,24 @@
           "editorial"
         ],
         "sortKeys": {
-          "github_stars": 709
+          "github_stars": 718
         },
         "category": "fun",
         "labels": []
       },
       "versions": [
+        {
+          "version": "0.22.3",
+          "publishTimestamp": 1795629915,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Nwflower/dsh-claude-style",
+            "commit": "fea058d21b8b1019e0e26d0c2b2d734c40c7143f"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
+        },
         {
           "version": "0.22.2",
           "publishTimestamp": 1795545684,
