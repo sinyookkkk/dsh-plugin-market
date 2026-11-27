@@ -86,7 +86,7 @@ https://sinyookkkk.github.io/dsh-plugin-market/index.json
 |---|---|
 | `dsh-openspec-opsx` | OpenSpec 规格驱动工作流 |
 | `@dragon-talon/dsh-openspec` | OpenSpec 技能与命令别名 |
-| `dsh-openspec-2x` | OpenSpec 2.2.0 技能与 `/opsx-*` 命令 |
+| `dsh-openspec` | OpenSpec 2.2.0 技能与 `/opsx-*` 命令 |
 | `specpowers` | OpenSpec + Superpowers 组合 |
 | `superpowers-dsh` | Superpowers 软件开发方法论 |
 | `@zfdx123/dsh-superpowers` | Superpowers 技能与会话引导 |

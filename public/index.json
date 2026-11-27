@@ -10010,9 +10010,9 @@
       }
     },
     {
-      "name": "dsh-openspec-2x",
-      "title": "dsh-openspec-2x",
-      "description": "OpenSpec 2.2.0 spec-driven workflows for DeepSeek Harness: 12 openspec-* skills plus /opsx-* slash commands that accept arguments.",
+      "name": "dsh-openspec",
+      "title": "dsh-openspec",
+      "description": "OpenSpec 2.2.0 spec-driven development (SDD) for DeepSeek Harness. Bundles 12 openspec-* skills (propose, explore, apply, verify, sync, archive...) plus 12 /opsx-* slash commands that accept your requirements inline. Skill and command text is generated verbatim from Fission-AI/OpenSpec 2.2.0. Requires the openspec CLI on PATH.",
       "metadata": {
         "keywords": [
           "deepseek-harness",
@@ -10033,11 +10033,11 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1795786761,
+          "publishTimestamp": 1795794471,
           "source": {
             "type": "git",
             "url": "https://github.com/sinyookkkk/dsh-openspec",
-            "commit": "151994c28149a61bf6ef57aea48ede8f5d442136"
+            "commit": "1725758e93340483f626bd34c719d519d6107f63"
           }
         }
       ]
@@ -14329,6 +14329,24 @@
         "labels": []
       },
       "versions": [
+        {
+          "version": "1.7.22",
+          "publishTimestamp": 1795794715,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
+            "commit": "2ec4b6b5dd84a7d32df41a97f1cad8c12098dcbd"
+          }
+        },
+        {
+          "version": "1.7.21",
+          "publishTimestamp": 1795789890,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
+            "commit": "0e5722addaac1f7340e9e95f7dce1985cf03b630"
+          }
+        },
         {
           "version": "1.7.20",
           "publishTimestamp": 1794929277,
