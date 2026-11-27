@@ -141,7 +141,7 @@
           "pi-package"
         ],
         "sortKeys": {
-          "github_stars": 8585
+          "github_stars": 8592
         },
         "category": "essentials",
         "labels": []
@@ -3837,7 +3837,7 @@
           "ui"
         ],
         "sortKeys": {
-          "github_stars": 5563
+          "github_stars": 5562
         },
         "category": "essentials",
         "labels": []
@@ -5857,7 +5857,7 @@
           "modlens"
         ],
         "sortKeys": {
-          "github_stars": 5100
+          "github_stars": 5102
         },
         "category": "capabilities",
         "labels": [
@@ -7662,7 +7662,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 63799,
+          "github_stars": 63809,
           "npm_weekly_downloads": 24444
         },
         "category": "capabilities",
@@ -7922,7 +7922,7 @@
           "security"
         ],
         "sortKeys": {
-          "github_stars": 2110
+          "github_stars": 2112
         },
         "category": "capabilities",
         "labels": []
@@ -8827,7 +8827,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 5358
+          "github_stars": 5359
         },
         "category": "interface",
         "labels": []
@@ -9221,7 +9221,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 10667,
+          "github_stars": 10669,
           "npm_weekly_downloads": 13248
         },
         "category": "interface",
@@ -9245,7 +9245,7 @@
           "architecture-diagram"
         ],
         "sortKeys": {
-          "github_stars": 100806
+          "github_stars": 100843
         },
         "category": "graphics",
         "labels": []
@@ -9909,7 +9909,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 798
+          "github_stars": 802
         },
         "category": "interface",
         "labels": []
@@ -10884,7 +10884,7 @@
           "commit-graph"
         ],
         "sortKeys": {
-          "github_stars": 39
+          "github_stars": 40
         },
         "category": "development",
         "labels": []
@@ -14323,7 +14323,7 @@
           "unrestricted"
         ],
         "sortKeys": {
-          "github_stars": 13124
+          "github_stars": 13163
         },
         "category": "development",
         "labels": []
@@ -15504,7 +15504,7 @@
           "scraping"
         ],
         "sortKeys": {
-          "github_stars": 9695
+          "github_stars": 9718
         },
         "category": "capabilities",
         "labels": []
@@ -15565,7 +15565,7 @@
           "agent-skill"
         ],
         "sortKeys": {
-          "github_stars": 39168
+          "github_stars": 39177
         },
         "category": "other",
         "labels": []
@@ -15625,7 +15625,7 @@
           "background"
         ],
         "sortKeys": {
-          "github_stars": 8290
+          "github_stars": 8297
         },
         "category": "fun",
         "labels": [
@@ -16619,7 +16619,7 @@
           "supermemory"
         ],
         "sortKeys": {
-          "github_stars": 1148,
+          "github_stars": 1150,
           "npm_weekly_downloads": 40408
         },
         "category": "capabilities",
@@ -18336,7 +18336,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 1021,
+          "github_stars": 1022,
           "npm_weekly_downloads": 3126
         },
         "category": "capabilities",
@@ -20209,7 +20209,7 @@
           "canvas"
         ],
         "sortKeys": {
-          "github_stars": 902,
+          "github_stars": 903,
           "npm_weekly_downloads": 6088
         },
         "category": "graphics",
@@ -21313,7 +21313,7 @@
           "cordis"
         ],
         "sortKeys": {
-          "github_stars": 1788,
+          "github_stars": 1789,
           "npm_weekly_downloads": 22266
         },
         "category": "graphics",
@@ -26471,7 +26471,7 @@
           "widget"
         ],
         "sortKeys": {
-          "github_stars": 7487
+          "github_stars": 7488
         },
         "category": "fun",
         "labels": []
@@ -27295,7 +27295,7 @@
           "editorial"
         ],
         "sortKeys": {
-          "github_stars": 730
+          "github_stars": 731
         },
         "category": "fun",
         "labels": []
