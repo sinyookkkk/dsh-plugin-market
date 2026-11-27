@@ -27,6 +27,7 @@ https://github.com/liangmianya/dsh-synapse
 # 规范与方法论：OpenSpec / Superpowers
 dsh-openspec-opsx
 @dragon-talon/dsh-openspec
+https://github.com/sinyookkkk/dsh-openspec
 https://github.com/SAXEM1997/specpowers
 https://github.com/LayneChai/superpowers-dsh
 @zfdx123/dsh-superpowers

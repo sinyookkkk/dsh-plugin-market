@@ -37,6 +37,7 @@
     "dsh-synapse": { "category": "interface" },
     "dsh-openspec-opsx": { "category": "development" },
     "@dragon-talon/dsh-openspec": { "category": "development" },
+    "dsh-openspec-2x": { "category": "development" },
     "specpowers": { "category": "development" },
     "superpowers-dsh": { "category": "development" },
     "@zfdx123/dsh-superpowers": { "category": "development" },

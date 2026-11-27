@@ -4,13 +4,6 @@
   "description": "deepseek plugin market",
   "metadata": {
     "sortKeys": {
-      "github_stars": {
-        "title": {
-          "en": "GitHub stars",
-          "zh": "GitHub 星标数"
-        },
-        "order": "desc"
-      },
       "npm_weekly_downloads": {
         "title": {
           "en": "npm weekly downloads",
@@ -140,9 +133,6 @@
           "openai",
           "pi-package"
         ],
-        "sortKeys": {
-          "github_stars": 8580
-        },
         "category": "essentials",
         "labels": []
       },
@@ -1053,9 +1043,6 @@
           "en",
           "language"
         ],
-        "sortKeys": {
-          "github_stars": 764
-        },
         "category": "essentials",
         "labels": []
       },
@@ -3836,9 +3823,6 @@
           "token",
           "ui"
         ],
-        "sortKeys": {
-          "github_stars": 5559
-        },
         "category": "essentials",
         "labels": []
       },
@@ -5856,9 +5840,6 @@
           "multimodal",
           "modlens"
         ],
-        "sortKeys": {
-          "github_stars": 5099
-        },
         "category": "capabilities",
         "labels": [
           "vision"
@@ -6429,9 +6410,6 @@
           "screenshot",
           "plugin"
         ],
-        "sortKeys": {
-          "github_stars": 1306
-        },
         "category": "capabilities",
         "labels": [
           "vision"
@@ -7223,9 +7201,6 @@
           "web-search",
           "search"
         ],
-        "sortKeys": {
-          "github_stars": 92
-        },
         "category": "capabilities",
         "labels": [
           "search"
@@ -7662,7 +7637,6 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 63793,
           "npm_weekly_downloads": 24444
         },
         "category": "capabilities",
@@ -7694,9 +7668,6 @@
           "cordis",
           "typescript"
         ],
-        "sortKeys": {
-          "github_stars": 22
-        },
         "category": "capabilities",
         "labels": [
           "memory",
@@ -7887,9 +7858,6 @@
         }
       ],
       "metadata": {
-        "sortKeys": {
-          "github_stars": 575
-        },
         "category": "capabilities",
         "labels": []
       }
@@ -7921,9 +7889,6 @@
           "safety",
           "security"
         ],
-        "sortKeys": {
-          "github_stars": 2110
-        },
         "category": "capabilities",
         "labels": []
       },
@@ -8332,6 +8297,18 @@
         "url": "https://github.com/omdsh-dev/DSH-better-sidebar"
       },
       "versions": [
+        {
+          "version": "0.34.0-alpha.1",
+          "publishTimestamp": 1795787095,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
+            "commit": "96d6ef4442a68e5f7ee75d95f24999c03a7597af"
+          },
+          "engines": {
+            "dsh": ">=0.2.3-alpha.2 <0.3.0"
+          }
+        },
         {
           "version": "0.34.0-alpha.0",
           "publishTimestamp": 1795674421,
@@ -8814,9 +8791,6 @@
         }
       ],
       "metadata": {
-        "sortKeys": {
-          "github_stars": 5357
-        },
         "category": "interface",
         "labels": []
       }
@@ -9209,7 +9183,6 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 10666,
           "npm_weekly_downloads": 13248
         },
         "category": "interface",
@@ -9232,9 +9205,6 @@
           "agent-skill",
           "architecture-diagram"
         ],
-        "sortKeys": {
-          "github_stars": 100771
-        },
         "category": "graphics",
         "labels": []
       },
@@ -9283,9 +9253,6 @@
           "企业模板",
           "母版"
         ],
-        "sortKeys": {
-          "github_stars": 52
-        },
         "category": "interface",
         "labels": []
       },
@@ -9896,9 +9863,6 @@
         }
       ],
       "metadata": {
-        "sortKeys": {
-          "github_stars": 795
-        },
         "category": "interface",
         "labels": []
       }
@@ -9923,7 +9887,6 @@
           "workflow"
         ],
         "sortKeys": {
-          "github_stars": 0,
           "npm_weekly_downloads": 288
         },
         "category": "development",
@@ -9990,12 +9953,41 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 1,
           "npm_weekly_downloads": 63
         },
         "category": "development",
         "labels": []
       }
+    },
+    {
+      "name": "dsh-openspec-2x",
+      "title": "dsh-openspec-2x",
+      "description": "OpenSpec 2.2.0 spec-driven workflows for DeepSeek Harness: 12 openspec-* skills plus /opsx-* slash commands that accept arguments.",
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "openspec",
+          "opsx",
+          "spec-driven",
+          "sdd",
+          "workflow"
+        ],
+        "category": "development",
+        "labels": []
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795786761,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/sinyookkkk/dsh-openspec",
+            "commit": "151994c28149a61bf6ef57aea48ede8f5d442136"
+          }
+        }
+      ]
     },
     {
       "name": "specpowers",
@@ -10013,9 +10005,6 @@
           "sdd",
           "tdd"
         ],
-        "sortKeys": {
-          "github_stars": 6
-        },
         "category": "development",
         "labels": []
       },
@@ -10065,9 +10054,6 @@
           "skills",
           "superpowers"
         ],
-        "sortKeys": {
-          "github_stars": 174
-        },
         "category": "development",
         "labels": []
       },
@@ -10325,7 +10311,6 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 0,
           "npm_weekly_downloads": 484
         },
         "category": "development",
@@ -10370,9 +10355,6 @@
           "acp",
           "json-rpc"
         ],
-        "sortKeys": {
-          "github_stars": 43
-        },
         "category": "development",
         "labels": []
       },
@@ -10838,13 +10820,22 @@
           "sidebar",
           "commit-graph"
         ],
-        "sortKeys": {
-          "github_stars": 39
-        },
         "category": "development",
         "labels": []
       },
       "versions": [
+        {
+          "version": "0.38.1",
+          "publishTimestamp": 1795781853,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/KannaKuron/dsh-ide-git",
+            "commit": "599fb3b30f5800b18020fbb43e944753db5b136f"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        },
         {
           "version": "0.38.0",
           "publishTimestamp": 1795765216,
@@ -11952,9 +11943,6 @@
           "review",
           "subagent"
         ],
-        "sortKeys": {
-          "github_stars": 19
-        },
         "category": "development",
         "labels": []
       },
@@ -12374,9 +12362,6 @@
           "agent-preset",
           "superpowers"
         ],
-        "sortKeys": {
-          "github_stars": 18
-        },
         "category": "development",
         "labels": []
       },
@@ -12496,9 +12481,6 @@
           "diff-viewer",
           "files"
         ],
-        "sortKeys": {
-          "github_stars": 35
-        },
         "category": "development",
         "labels": []
       },
@@ -14265,9 +14247,6 @@
           "无限制模式",
           "unrestricted"
         ],
-        "sortKeys": {
-          "github_stars": 13104
-        },
         "category": "development",
         "labels": []
       },
@@ -15428,9 +15407,6 @@
           "enrichment",
           "scraping"
         ],
-        "sortKeys": {
-          "github_stars": 9682
-        },
         "category": "capabilities",
         "labels": []
       },
@@ -15489,9 +15465,6 @@
           "deepseek-harness",
           "agent-skill"
         ],
-        "sortKeys": {
-          "github_stars": 39164
-        },
         "category": "other",
         "labels": []
       },
@@ -15549,9 +15522,6 @@
           "theme",
           "background"
         ],
-        "sortKeys": {
-          "github_stars": 8283
-        },
         "category": "fun",
         "labels": [
           "local"
@@ -15762,9 +15732,6 @@
           "deepseek-harness",
           "repository-tools"
         ],
-        "sortKeys": {
-          "github_stars": 6037
-        },
         "category": "capabilities",
         "labels": []
       },
@@ -16031,9 +15998,6 @@
           "ai-agent",
           "llm"
         ],
-        "sortKeys": {
-          "github_stars": 3115
-        },
         "category": "development",
         "labels": []
       },
@@ -16544,7 +16508,6 @@
           "supermemory"
         ],
         "sortKeys": {
-          "github_stars": 1148,
           "npm_weekly_downloads": 40408
         },
         "category": "capabilities",
@@ -17538,9 +17501,6 @@
           "dsh-plugin",
           "deepseek-harness"
         ],
-        "sortKeys": {
-          "github_stars": 1048
-        },
         "category": "capabilities",
         "labels": [
           "search"
@@ -18261,7 +18221,6 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 1021,
           "npm_weekly_downloads": 3126
         },
         "category": "capabilities",
@@ -18308,9 +18267,6 @@
           "ai-agent",
           "cordis"
         ],
-        "sortKeys": {
-          "github_stars": 622
-        },
         "category": "development",
         "labels": []
       },
@@ -19904,9 +19860,6 @@
           "chatbot",
           "im"
         ],
-        "sortKeys": {
-          "github_stars": 633
-        },
         "category": "capabilities",
         "labels": []
       },
@@ -20034,7 +19987,6 @@
           "attachment"
         ],
         "sortKeys": {
-          "github_stars": 0,
           "npm_weekly_downloads": 24
         },
         "category": "graphics",
@@ -20075,7 +20027,6 @@
           "sketch"
         ],
         "sortKeys": {
-          "github_stars": 3,
           "npm_weekly_downloads": 395
         },
         "category": "graphics",
@@ -20134,7 +20085,6 @@
           "canvas"
         ],
         "sortKeys": {
-          "github_stars": 902,
           "npm_weekly_downloads": 6088
         },
         "category": "graphics",
@@ -20416,7 +20366,6 @@
           "web-ui"
         ],
         "sortKeys": {
-          "github_stars": 22,
           "npm_weekly_downloads": 552
         },
         "category": "graphics",
@@ -20572,7 +20521,6 @@
           "diagram"
         ],
         "sortKeys": {
-          "github_stars": 23,
           "npm_weekly_downloads": 3399
         },
         "category": "graphics",
@@ -20780,7 +20728,6 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 1,
           "npm_weekly_downloads": 1257
         },
         "category": "graphics",
@@ -20810,7 +20757,6 @@
           "text-to-image"
         ],
         "sortKeys": {
-          "github_stars": 15,
           "npm_weekly_downloads": 1580
         },
         "category": "graphics",
@@ -21159,7 +21105,6 @@
           "lora"
         ],
         "sortKeys": {
-          "github_stars": 0,
           "npm_weekly_downloads": 311
         },
         "category": "graphics",
@@ -21238,7 +21183,6 @@
           "cordis"
         ],
         "sortKeys": {
-          "github_stars": 1788,
           "npm_weekly_downloads": 22266
         },
         "category": "graphics",
@@ -21675,7 +21619,6 @@
           "delegation"
         ],
         "sortKeys": {
-          "github_stars": 2,
           "npm_weekly_downloads": 6737
         },
         "category": "token",
@@ -22117,7 +22060,6 @@
           "plugin"
         ],
         "sortKeys": {
-          "github_stars": 13,
           "npm_weekly_downloads": 40694
         },
         "category": "token",
@@ -23118,7 +23060,6 @@
           "compaction"
         ],
         "sortKeys": {
-          "github_stars": 374,
           "npm_weekly_downloads": 2166
         },
         "category": "token",
@@ -23346,7 +23287,6 @@
           "conversation-history"
         ],
         "sortKeys": {
-          "github_stars": 77,
           "npm_weekly_downloads": 3477
         },
         "category": "token",
@@ -23816,7 +23756,6 @@
           "ingress"
         ],
         "sortKeys": {
-          "github_stars": 1,
           "npm_weekly_downloads": 3711
         },
         "category": "token",
@@ -23876,7 +23815,6 @@
           "summarization"
         ],
         "sortKeys": {
-          "github_stars": 6,
           "npm_weekly_downloads": 378
         },
         "category": "token",
@@ -23952,7 +23890,6 @@
           "ui"
         ],
         "sortKeys": {
-          "github_stars": 2,
           "npm_weekly_downloads": 619
         },
         "category": "token",
@@ -24090,7 +24027,6 @@
           "ui"
         ],
         "sortKeys": {
-          "github_stars": 0,
           "npm_weekly_downloads": 3488
         },
         "category": "token",
@@ -24340,7 +24276,6 @@
           "plugin"
         ],
         "sortKeys": {
-          "github_stars": 24,
           "npm_weekly_downloads": 57
         },
         "category": "token",
@@ -24443,9 +24378,6 @@
           "token-saver",
           "compaction"
         ],
-        "sortKeys": {
-          "github_stars": 7
-        },
         "category": "token",
         "labels": [
           "saving"
@@ -24488,7 +24420,6 @@
           "observability"
         ],
         "sortKeys": {
-          "github_stars": 0,
           "npm_weekly_downloads": 348
         },
         "category": "token",
@@ -24532,7 +24463,6 @@
           "observability"
         ],
         "sortKeys": {
-          "github_stars": 0,
           "npm_weekly_downloads": 279
         },
         "category": "token",
@@ -24594,7 +24524,6 @@
           "usage-statistics"
         ],
         "sortKeys": {
-          "github_stars": 12,
           "npm_weekly_downloads": 195
         },
         "category": "token",
@@ -24701,7 +24630,6 @@
           "claude-code"
         ],
         "sortKeys": {
-          "github_stars": 137,
           "npm_weekly_downloads": 5845
         },
         "category": "token",
@@ -25003,9 +24931,6 @@
           "3D建模",
           "渲染"
         ],
-        "sortKeys": {
-          "github_stars": 0
-        },
         "category": "modeling",
         "labels": [
           "local"
@@ -25159,9 +25084,6 @@
           "dxf",
           "svg"
         ],
-        "sortKeys": {
-          "github_stars": 47
-        },
         "category": "modeling",
         "labels": [
           "local"
@@ -25462,9 +25384,6 @@
           "dsh-bundle",
           "plugin"
         ],
-        "sortKeys": {
-          "github_stars": 1
-        },
         "category": "modeling",
         "labels": []
       },
@@ -25533,9 +25452,6 @@
         }
       ],
       "metadata": {
-        "sortKeys": {
-          "github_stars": 3
-        },
         "category": "modeling",
         "labels": []
       }
@@ -25557,9 +25473,6 @@
           "plugin",
           "ui"
         ],
-        "sortKeys": {
-          "github_stars": 1068
-        },
         "category": "modeling",
         "labels": []
       },
@@ -25875,9 +25788,6 @@
           "cordis",
           "react"
         ],
-        "sortKeys": {
-          "github_stars": 6782
-        },
         "category": "fun",
         "labels": []
       },
@@ -26395,9 +26305,6 @@
           "balance",
           "widget"
         ],
-        "sortKeys": {
-          "github_stars": 7486
-        },
         "category": "fun",
         "labels": []
       },
@@ -26694,9 +26601,6 @@
           "task",
           "status-card"
         ],
-        "sortKeys": {
-          "github_stars": 80
-        },
         "category": "fun",
         "labels": []
       },
@@ -27171,9 +27075,6 @@
           "emoticon",
           "sticker"
         ],
-        "sortKeys": {
-          "github_stars": 607
-        },
         "category": "fun",
         "labels": []
       },
@@ -27219,9 +27120,6 @@
           "anthropic",
           "editorial"
         ],
-        "sortKeys": {
-          "github_stars": 730
-        },
         "category": "fun",
         "labels": []
       },
