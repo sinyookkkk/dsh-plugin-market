@@ -141,7 +141,7 @@
           "pi-package"
         ],
         "sortKeys": {
-          "github_stars": 8638
+          "github_stars": 8649
         },
         "category": "essentials",
         "labels": []
@@ -1063,7 +1063,7 @@
           "language"
         ],
         "sortKeys": {
-          "github_stars": 765
+          "github_stars": 764
         },
         "category": "essentials",
         "labels": []
@@ -3870,7 +3870,7 @@
           "ui"
         ],
         "sortKeys": {
-          "github_stars": 5571
+          "github_stars": 5574
         },
         "category": "essentials",
         "labels": []
@@ -5902,7 +5902,7 @@
           "modlens"
         ],
         "sortKeys": {
-          "github_stars": 5106
+          "github_stars": 5109
         },
         "category": "capabilities",
         "labels": [
@@ -7726,7 +7726,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 63922,
+          "github_stars": 63959,
           "npm_weekly_downloads": 22051
         },
         "category": "capabilities",
@@ -7986,7 +7986,7 @@
           "security"
         ],
         "sortKeys": {
-          "github_stars": 2114
+          "github_stars": 2115
         },
         "category": "capabilities",
         "labels": []
@@ -8900,7 +8900,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 5366
+          "github_stars": 5370
         },
         "category": "interface",
         "labels": []
@@ -9294,7 +9294,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "github_stars": 10674,
+          "github_stars": 10677,
           "npm_weekly_downloads": 11832
         },
         "category": "interface",
@@ -9318,7 +9318,7 @@
           "architecture-diagram"
         ],
         "sortKeys": {
-          "github_stars": 101124
+          "github_stars": 101165
         },
         "category": "graphics",
         "labels": []
@@ -9369,12 +9369,24 @@
           "母版"
         ],
         "sortKeys": {
-          "github_stars": 54
+          "github_stars": 55
         },
         "category": "interface",
         "labels": []
       },
       "versions": [
+        {
+          "version": "1.1.1",
+          "publishTimestamp": 1795869581,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/STARDUSTLC666/dsh-ppt",
+            "commit": "f1ddbe404e03d9ee6483918ef3d92eed1fdc8312"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
+        },
         {
           "version": "1.1.0",
           "publishTimestamp": 1795718615,
@@ -14396,12 +14408,21 @@
           "unrestricted"
         ],
         "sortKeys": {
-          "github_stars": 13361
+          "github_stars": 13423
         },
         "category": "development",
         "labels": []
       },
       "versions": [
+        {
+          "version": "1.7.25",
+          "publishTimestamp": 1795875104,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
+            "commit": "969be479f6767320edda22d81ca4ea57c4f46480"
+          }
+        },
         {
           "version": "1.7.24",
           "publishTimestamp": 1795822630,
@@ -15595,7 +15616,7 @@
           "scraping"
         ],
         "sortKeys": {
-          "github_stars": 9836
+          "github_stars": 9848
         },
         "category": "capabilities",
         "labels": []
@@ -15656,7 +15677,7 @@
           "agent-skill"
         ],
         "sortKeys": {
-          "github_stars": 39234
+          "github_stars": 39245
         },
         "category": "other",
         "labels": []
@@ -15716,7 +15737,7 @@
           "background"
         ],
         "sortKeys": {
-          "github_stars": 8349
+          "github_stars": 8359
         },
         "category": "fun",
         "labels": [
@@ -15929,7 +15950,7 @@
           "repository-tools"
         ],
         "sortKeys": {
-          "github_stars": 6053
+          "github_stars": 6052
         },
         "category": "capabilities",
         "labels": []
@@ -16198,7 +16219,7 @@
           "llm"
         ],
         "sortKeys": {
-          "github_stars": 3121
+          "github_stars": 3124
         },
         "category": "development",
         "labels": []
@@ -16710,7 +16731,7 @@
           "supermemory"
         ],
         "sortKeys": {
-          "github_stars": 1153,
+          "github_stars": 1155,
           "npm_weekly_downloads": 37479
         },
         "category": "capabilities",
@@ -20300,7 +20321,7 @@
           "canvas"
         ],
         "sortKeys": {
-          "github_stars": 907,
+          "github_stars": 911,
           "npm_weekly_downloads": 5820
         },
         "category": "graphics",
@@ -21404,7 +21425,7 @@
           "cordis"
         ],
         "sortKeys": {
-          "github_stars": 1829,
+          "github_stars": 1860,
           "npm_weekly_downloads": 21682
         },
         "category": "graphics",
@@ -23512,7 +23533,7 @@
           "conversation-history"
         ],
         "sortKeys": {
-          "github_stars": 76,
+          "github_stars": 77,
           "npm_weekly_downloads": 3670
         },
         "category": "token",
@@ -25189,6 +25210,18 @@
       },
       "versions": [
         {
+          "version": "0.6.1",
+          "publishTimestamp": 1795869470,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/STARDUSTLC666/dsh-blender-studio",
+            "commit": "957f050bb14d57ef240fca73fa477d6bc02816ce"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
+        },
+        {
           "version": "0.6.0",
           "publishTimestamp": 1795797284,
           "source": {
@@ -26064,7 +26097,7 @@
           "react"
         ],
         "sortKeys": {
-          "github_stars": 6803
+          "github_stars": 6810
         },
         "category": "fun",
         "labels": []
@@ -26584,7 +26617,7 @@
           "widget"
         ],
         "sortKeys": {
-          "github_stars": 7490
+          "github_stars": 7492
         },
         "category": "fun",
         "labels": []
@@ -27408,7 +27441,7 @@
           "editorial"
         ],
         "sortKeys": {
-          "github_stars": 736
+          "github_stars": 737
         },
         "category": "fun",
         "labels": []
@@ -28330,6 +28363,41 @@
           }
         }
       ]
+    },
+    {
+      "name": "godogen-dsh",
+      "title": {
+        "en": "Godogen",
+        "zh": "Godogen 游戏构建"
+      },
+      "description": {
+        "en": "Build games, trailers and interactive 3D with an agent: engine choice and headless capture for Godot, Bevy, Babylon.js, three.js and HTML, plus image, 3D and audio asset generation.",
+        "zh": "用 agent 做游戏、预告片和交互式 3D：Godot、Bevy、Babylon.js、three.js 与 HTML 的引擎选型和无头截图/录制，以及图像、3D、音频素材生成。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdvZG9nZW4iPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE0IiBmaWxsPSIjMTAxYzFhIi8+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMTgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQ2YjM5ZCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtZGFzaGFycmF5PSI1IDQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0yNi41IDIzLjUgTDQzIDMyIEwyNi41IDQwLjUgWiIgZmlsbD0iIzhmZTNjZCIvPgo8L3N2Zz4K",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795878781,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/sinyookkkk/godogen-dsh",
+            "commit": "50fad75e96667ab3ded541108a16fdd49a4b230c"
+          },
+          "engines": {
+            "dsh": ">=0.2.3-alpha.2 <0.3.0"
+          }
+        }
+      ],
+      "metadata": {
+        "sortKeys": {
+          "github_stars": 0
+        },
+        "category": "development",
+        "labels": [
+          "local"
+        ]
+      }
     }
   ]
 }
