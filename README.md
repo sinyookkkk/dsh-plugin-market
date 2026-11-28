@@ -48,7 +48,7 @@ https://sinyookkkk.github.io/dsh-plugin-market/index.json
 
 ## 商店收录了哪些 plugin
 
-目前共 **73 个**。名称就是 DSH 里可以搜索的关键字。
+目前共 **74 个**。名称就是 DSH 里可以搜索的关键字。
 
 ### 必装与实用
 
@@ -169,6 +169,12 @@ https://sinyookkkk.github.io/dsh-plugin-market/index.json
 | `dsh-usd-3d-preview` | USD 3D 预览 |
 | `dsh-molecular-viewer` | 三维分子结构查看 |
 | `@changfenhuang/dsh-genui` | 通用 UI 生成，含 3D 场景 |
+
+### 游戏开发
+
+| 插件 | 作用 |
+|---|---|
+| `godogen-dsh` | Godot / Bevy / Babylon.js / three.js 引擎选型与无头截图，图像、3D、音频素材生成 |
 
 ### 趣味与美化
 

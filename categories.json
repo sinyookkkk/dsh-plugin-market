@@ -41,6 +41,7 @@
     "specpowers": { "category": "development" },
     "superpowers-dsh": { "category": "development" },
     "@zfdx123/dsh-superpowers": { "category": "development" },
+    "godogen-dsh": { "category": "development", "labels": ["local"] },
     "dsh-lsp-actions": { "category": "development" },
     "dsh-ide-git": { "category": "development" },
     "@michengai/dsh-code-review": { "category": "development" },

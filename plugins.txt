@@ -102,3 +102,6 @@ https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget
 https://github.com/MichengAI/dsh-pua
 https://github.com/yyh-001/dsh-meme
 https://github.com/Nwflower/dsh-claude-style
+
+# 游戏开发
+https://github.com/sinyookkkk/godogen-dsh
